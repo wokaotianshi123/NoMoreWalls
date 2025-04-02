@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -45,7 +45,7 @@ proxies:
   ws-headers:
     Host: v2-us2-zx.netcar.live
   ws-path: /
-- name: 1,14|US_speednode_0087
+- name: 1,13|US_speednode_0087
   network: ws
   port: 80
   server: 188.114.97.3
@@ -74,7 +74,7 @@ proxies:
       Host: cv.vs2025.cfd
     path: /?ed=2560
 - delay: 2425
-  name: 1,14|US_speednode_0094
+  name: 1,13|US_speednode_0094
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: ustx004-cdn-route.couldflare-cdn.com
@@ -164,7 +164,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,12,13|美国3|@ripaojiedian
+  name: 1,11,12|美国3|@ripaojiedian
   network: ws
   port: '2053'
   server: usa.visa.com
@@ -348,7 +348,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1,14|NL_speednode_0078
+  name: 1,13|NL_speednode_0078
   network: ws
   port: 80
   server: 45.131.5.27
@@ -499,7 +499,7 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /PQbo6kwamNEbtFNK?ed=2560
-- name: 1,14|NL_speednode_0076
+- name: 1,13|NL_speednode_0076
   network: ws
   port: 80
   server: 45.131.5.145
@@ -527,28 +527,7 @@ proxies:
     headers:
       Host: cv.vs2025.cfd
     path: /ss.vs2024.us.kg
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
+- name: 10|🇺🇸美国 加利福尼亚州 圣克拉拉 DIGITALOCEAN-...
   password: iMqY3uG_5pgEj3hCfyHB-0vB
   port: 443
   server: 143.198.235.49
@@ -557,7 +536,7 @@ proxies:
   type: hysteria2
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -569,7 +548,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -581,7 +560,7 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|US_speednode_0085
+  name: 13|US_speednode_0085
   port: 43166
   reality-opts:
     public-key: TUetE0Mwwy7MJRnsMQnojc4jWU18DeJaymJB8kLsn1M
@@ -593,7 +572,7 @@ proxies:
   type: vless
   udp: true
   uuid: f6c0c82a-5515-4f03-9491-6be60427db68
-- name: 14|US_speednode_0089
+- name: 13|US_speednode_0089
   network: ws
   port: 443
   server: 135.84.76.115
@@ -607,7 +586,7 @@ proxies:
     headers:
       Host: ml.ylkszy.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0091
+- name: 13|US_speednode_0091
   network: ws
   port: 443
   server: 63.141.128.58
@@ -621,7 +600,7 @@ proxies:
     headers:
       Host: ml.ylkszy.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0093
+- name: 13|US_speednode_0093
   network: ws
   port: 443
   server: dnschecker.org
@@ -635,7 +614,7 @@ proxies:
     headers:
       Host: ml.ylkszy.eu.org
     path: /?ed=2560
-- name: 14|US_speednode_0095
+- name: 13|US_speednode_0095
   password: oIwjHDXpKePvYIg8
   port: 443
   server: 43.162.127.44
@@ -643,7 +622,7 @@ proxies:
   sni: myvps.cfd
   type: trojan
   udp: true
-- name: 14|US_speednode_0096
+- name: 13|US_speednode_0096
   network: ws
   port: 80
   server: support.zoom.us
@@ -657,7 +636,7 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.shop
     path: /
-- name: 14|US_speednode_0098
+- name: 13|US_speednode_0098
   network: ws
   port: 80
   server: 170.114.45.6
@@ -671,7 +650,7 @@ proxies:
     headers:
       Host: free.server.pranithsandaruwan.shop
     path: /
-- name: 14|US_speednode_0099
+- name: 13|US_speednode_0099
   network: ws
   port: 80
   server: 151.101.130.133
@@ -685,7 +664,7 @@ proxies:
     headers:
       Host: buzinefastly.com
     path: /Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
-- name: 14|US_speednode_0100
+- name: 13|US_speednode_0100
   network: ws
   port: 443
   server: 172.67.181.209
@@ -699,3 +678,24 @@ proxies:
     headers:
       Host: ml.ylkszy.eu.org
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
@@ -36,7 +36,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,12,13|美国3|@ripaojiedian
+  name: 1,11,12|美国3|@ripaojiedian
   network: ws
   port: '2053'
   server: usa.visa.com
@@ -57,30 +57,9 @@ proxies:
   port: 443
   server: 34.222.2.112
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -92,7 +71,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -102,11 +81,32 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 14|US_speednode_0095
+- name: 13|US_speednode_0095
   password: oIwjHDXpKePvYIg8
   port: 443
   server: 43.162.127.44
   skip-cert-verify: false
   sni: myvps.cfd
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
   udp: true

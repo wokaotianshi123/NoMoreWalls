@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -19,7 +19,7 @@ proxies:
       Host: gozargah.validbv7996.ir
     path: Telegram🇨🇳@WangCai2/?ed
 - client-fingerprint: chrome
-  name: 1,14|NL_speednode_0071
+  name: 1,13|NL_speednode_0071
   network: ws
   port: 80
   server: 45.131.4.33
@@ -108,14 +108,7 @@ proxies:
     headers:
       Host: VPNCUSTOMIZE.www.webdade.com.www.speedtest.net.irna.ir.ips.ddns-ip.net.
     path: /Channel----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE---VPNCUSTOMIZE?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 10|(@VmessProtocol)ای ی  ت ای  🇩🇪
+- name: 9|(@VmessProtocol)ای ی  ت ای  🇩🇪
   password: b099dc75-799b-4c23-b241-48a797259359
   port: 443
   server: 146.56.102.76
@@ -124,7 +117,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 14|DE_speednode_0057
+  name: 13|DE_speednode_0057
   port: 49404
   reality-opts:
     public-key: IALYvlRfZixf3EWNWgwhw9Fj2oZ_MtbBcjG78ceqblA
@@ -137,7 +130,7 @@ proxies:
   udp: true
   uuid: bbb4d5cf-5ff3-46f7-bc21-deaad2f6ab46
 - client-fingerprint: chrome
-  name: 14|DE_speednode_0058
+  name: 13|DE_speednode_0058
   port: 49404
   reality-opts:
     public-key: IALYvlRfZixf3EWNWgwhw9Fj2oZ_MtbBcjG78ceqblA
@@ -149,3 +142,10 @@ proxies:
   type: vless
   udp: true
   uuid: bbb4d5cf-5ff3-46f7-bc21-deaad2f6ab46
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

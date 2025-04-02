@@ -1,19 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 5af87191-3db5-4d0b-9dc1-146d081a0332
+  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,14|NL_speednode_0070
+- name: 1,13|NL_speednode_0070
   network: ws
   port: 80
   server: 45.131.4.126
@@ -41,7 +34,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0054
+  name: 1,13|CN_speednode_0054
   network: tcp
   port: 65053
   reality-opts:
@@ -77,21 +70,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰 香港 01 | 1x HK
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧 英国住宅IP 01 | 1x UK
-  password: c5fef495-f7f6-4193-8945-709c622f058c
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -99,7 +78,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|GB_speednode_0061
+- name: 13|GB_speednode_0061
   network: ws
   port: 80
   server: 94.247.142.1
@@ -113,3 +92,10 @@ proxies:
     headers:
       Host: APPinfo.EiNETWORK.NEWS
     path: /Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram-EiV2Ray-Telegram
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 632224ff-81b0-4009-87a0-97692866e3e6
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

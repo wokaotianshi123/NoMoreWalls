@@ -1,42 +1,80 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3249e63f-fe0d-429f-946c-f5482c6387a0
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3249e63f-fe0d-429f-946c-f5482c6387a0
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 3249e63f-fe0d-429f-946c-f5482c6387a0
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: e8e6d13e-9c1c-4254-b84a-4bd843e4c165
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: e8e6d13e-9c1c-4254-b84a-4bd843e4c165
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 78ec68c2-77f2-4d5a-9751-1cb27220ce3d
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: e8e6d13e-9c1c-4254-b84a-4bd843e4c165
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 1|🇺🇸24 |  3.3MB/s
-  network: tcp
-  port: '34013'
-  server: v2-us2-zx.netcar.live
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
-  ws-headers:
-    Host: v2-us2-zx.netcar.live
-  ws-path: /
+- cipher: aes-256-cfb
+  name: 2|🇺🇸4 |  3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 34.208.203.47
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
+    mode: http
+  port: 8776
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '2053'
   server: usa.visa.com
@@ -50,63 +88,3 @@ proxies:
     headers:
       Host: hax.hy.cloudns.ch
     path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 1|🇺🇸31 |  1.8MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-uvymC2YEG6.download.microsoft.com
-    mode: http
-  port: 8776
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-uvymC2YEG6.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- name: 13|US_speednode_0095
-  password: oIwjHDXpKePvYIg8
-  port: 443
-  server: 43.162.127.44
-  skip-cert-verify: false
-  sni: myvps.cfd
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 632224ff-81b0-4009-87a0-97692866e3e6
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 632224ff-81b0-4009-87a0-97692866e3e6
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 632224ff-81b0-4009-87a0-97692866e3e6
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

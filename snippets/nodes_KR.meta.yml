@@ -1,36 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 297ae558-80b9-4428-8597-15e3e8dc2553
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 297ae558-80b9-4428-8597-15e3e8dc2553
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 882410de-0ada-4f60-b68c-272507fbd395
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 882410de-0ada-4f60-b68c-272507fbd395
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇰🇷1 |  5.7MB/s
+- name: 1,13|NL_speednode_0057
   network: ws
   port: 80
-  server: 45.131.4.113
+  server: 45.131.5.179
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -38,43 +12,10 @@ proxies:
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- client-fingerprint: qq
-  flow: ''
-  mode: ''
-  name: 2|🇰🇷2 |  6.1MB/s
-  network: tcp
-  port: 30001
-  reality-opts:
-    public-key: DyRHSP0NYimjT2GuBQ1qyIIYvSHvR1X9ufQjUBVw9yQ
-    short-id: ''
-  server: 13.209.11.26
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: f37384b3-ed03-4205-8a8f-c6b639fb335f
-- name: 2|🇰🇷3 |  1.6MB/s
-  network: ws
-  port: 80
-  server: 45.131.4.73
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2--MOSiV2?ed=2560
-- cipher: aes-256-cfb
-  name: 2|🇰🇷4 |  3.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.67.225
-  type: ss
+    path: /Telegram🇨🇳@WangCai2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 154.90.62.168
@@ -82,9 +23,55 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 47.129.230.32
   tfo: false
   type: ss
+- name: 13|KR_speednode_0034
+  port: 38710
+  server: 3.36.117.178
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1e18748c-e5c1-4977-e32e-d19120e9317a
+- name: 13|KR_speednode_0035
+  port: 52740
+  server: 43.201.70.105
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 65de30b5-fe8c-45ae-fdd8-1fbd9e845af2
+- name: 13|KR_speednode_0036
+  port: 20311
+  server: 54.180.228.70
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 29723316-2e2f-46ed-a814-f6ac0dd212e1
+- name: 13|KR_speednode_0037
+  port: 47103
+  server: 3.36.124.120
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0b2d8937-4a28-427a-8ae6-449e425ba525
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: f8462750-aaaa-4d1c-be6b-4412da33f204
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: f8462750-aaaa-4d1c-be6b-4412da33f204
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

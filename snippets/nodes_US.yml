@@ -1,54 +1,60 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: 2|🇺🇸30 |  1.1MB/s
-  network: tcp
-  port: 32977
-  server: 120.232.153.41
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- allowInsecure: '1'
+  name: 2|🇺🇸8 |  5.1MB/s
+  network: ws
+  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
+  port: 443
+  server: 107.173.87.40
+  skip-cert-verify: true
+  sni: golinkwuxian.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 111.golinkwuxian.top
+    path: /apple
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian

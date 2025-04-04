@@ -1,60 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 71d32b55-4c86-4e2e-a636-945644fd94ce
+  password: d8f65612-276e-4a19-a581-35e589ae19f7
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: 7f026ba9-fefb-4a0a-b12c-4c8a5c6ee40e
+  password: d9c8e9d9-1971-4c80-9cc6-51f34d5489a2
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,13|日本4|@ripaojiedian
-  network: tcp
-  port: '28588'
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-  ws-headers:
-    Host: pqcaqxvt.xn--fiqs8sjz2bull.com
-  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
@@ -123,3 +109,13 @@ proxies:
   server: 13.229.210.217
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|日本4|@ripaojiedian
+  network: tcp
+  port: '28588'
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11

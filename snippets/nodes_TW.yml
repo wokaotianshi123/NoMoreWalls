@@ -1,60 +1,59 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  name: 0|🇹🇼台湾 01 | 1x TW
+  password: a8317f77-73c4-494a-a8ec-538794bc4bf5
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  name: 0|🇹🇼台湾 02 | 1x TW
+  password: a8317f77-73c4-494a-a8ec-538794bc4bf5
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: ea529ef9-1fde-4b58-9f99-589a6d464c1b
+  name: 0|🇹🇼台湾 03 | 1x TW
+  password: a8317f77-73c4-494a-a8ec-538794bc4bf5
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,12|台湾|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 104.17.137.127
-  servername: tw.niskakowski.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 56529ad8-61d2-4bfa-aa0b-a800719cb5fe
-  ws-opts:
-    headers:
-      Host: tw.niskakowski.ggff.net
-    path: /aa
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 85ed0275-662c-4f4a-b78c-0179038cb4c0
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 7cb04e3e-01d3-4f02-8f7c-a83e6f2b3763
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 85ed0275-662c-4f4a-b78c-0179038cb4c0
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 7cb04e3e-01d3-4f02-8f7c-a83e6f2b3763
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 85ed0275-662c-4f4a-b78c-0179038cb4c0
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 7cb04e3e-01d3-4f02-8f7c-a83e6f2b3763
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 2|🇹🇼1 |  1.0MB/s
+  network: tcp
+  port: '27228'
+  server: 45.121.50.116
+  type: vmess
+  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: IR5ONQ6V2RB5AAPW
+  port: 21005
+  server: 150.116.11.9
+  tfo: false
+  type: ss

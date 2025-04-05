@@ -1,65 +1,18 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: caeba4d1-2745-4862-b522-6543341a8ac2
+  password: 4cd64b45-568a-47b6-b1cb-9bc66fa3ac09
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: caeba4d1-2745-4862-b522-6543341a8ac2
+  password: 4cd64b45-568a-47b6-b1cb-9bc66fa3ac09
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇬🇧1 |  2.5MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.35
-  servername: gozargah.validbv7996.ir
-  tls: false
-  type: vless
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  2.3MB/s
-  network: tcp
-  port: 14659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- auth: 988e700f-dd14-479b-bd1c-09b57c6924e8
-  name: 1|🇬🇧3 |  1.0MB/s
-  password: 988e700f-dd14-479b-bd1c-09b57c6924e8
-  port: 20344
-  server: gb.1e6af9be69cbae59cba.tech
-  sni: gb.1e6af9be69cbae59cba.tech
-  type: hysteria2
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇬🇧4 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 45.131.5.182
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1,13|CN_speednode_0023
@@ -74,6 +27,34 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇬🇧2 |  3.2MB/s
+  network: ws
+  port: 22222
+  server: 13.41.21.191
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  udp: false
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇬🇧3 |  5.5MB/s
+  network: tcp
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
@@ -82,32 +63,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇬🇧 英国|@ripaojiedian
-  password: QIXWUPZT9O5EUEWK
-  port: 19014
-  server: 206.245.211.24
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 11|🇬🇧 英国2|@ripaojiedian
-  password: 5U3COGGRJPO2DQNF
-  port: 19001
-  server: 206.245.211.11
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港 01 | 1x HK
-  password: 6ca9109e-4ed1-42da-a37d-f217a6c0ecd7
+  password: 9e429449-a455-475e-881e-d6ce11ab93e9
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 6ca9109e-4ed1-42da-a37d-f217a6c0ecd7
+  password: 9e429449-a455-475e-881e-d6ce11ab93e9
   port: 36271
   server: free.2weradf.xyz
   type: ss

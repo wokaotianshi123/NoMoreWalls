@@ -1,49 +1,112 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: b6bc8645-bca4-43b9-baa5-af52d3a8da59
+  password: 3987d45e-cc47-4ab1-aef7-1f6c3bdaf294
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: b6bc8645-bca4-43b9-baa5-af52d3a8da59
+  password: 3987d45e-cc47-4ab1-aef7-1f6c3bdaf294
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸美国 03 | 1x US Washington
-  password: b6bc8645-bca4-43b9-baa5-af52d3a8da59
+  password: 3987d45e-cc47-4ab1-aef7-1f6c3bdaf294
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 37230b88-664a-48bc-bf57-de45554b9abc
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 37230b88-664a-48bc-bf57-de45554b9abc
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 37230b88-664a-48bc-bf57-de45554b9abc
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸5 |  5.7MB/s
+  name: 1|🇺🇸1 |  5.9MB/s
+  network: ws
+  port: 8443
+  raw:
+    add: 1743919941.tencentapp.cn
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    id: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+    net: ws
+    path: /
+    port: '8443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    tls: tls
+    type: ''
+    v: '2'
+  server: 1743919941.tencentapp.cn
+  servername: 1743919978.speed.laxha.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸8 |  2.8MB/s
+  network: ws
+  port: 22643
+  raw:
+    add: 119.188.66.248
+    aid: 2
+    alpn: ''
+    fp: ''
+    host: zxjp-c.tkong.cc
+    id: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+    net: ws
+    path: /
+    port: 22643
+    ps: 2|🇺🇸9 |  5.0MB/s
+    scy: auto
+    sni: zxjp-c.tkong.cc
+    tls: tls
+    type: none
+    v: '2'
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸9 |  3.5MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-headers:
+    Host: zxjp-c.tkong.cc
+  ws-path: /
+- name: 1|🇺🇸15 |  4.6MB/s
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+  port: 443
+  server: 172.67.135.23
+  sni: uS6-16.890601.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uS6-16.890601.xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸23 |  5.6MB/s
   network: tcp
   port: 5228
   server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
@@ -54,9 +117,42 @@ proxies:
   ws-headers:
     Host: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
   ws-path: /
+- allowInsecure: ''
+  name: 1|🇺🇸35 |  3.5MB/s
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 104.21.23.115
+  skip-cert-verify: false
+  sni: sanjose02.852224.ggff.net
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2691
+  h2-opts: {}
+  http-opts: {}
+  name: 1|🇺🇸36 |  5.7MB/s
+  network: ws
+  port: 2096
+  server: 1743919941.tencentapp.cn
+  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      HOST: 1743919978.speed.adl.cccp.freefly.pp.ua
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -68,7 +164,7 @@ proxies:
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -81,7 +177,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -95,3 +191,24 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 94f794d2-9560-4647-b6c6-4bc846891ea8
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 94f794d2-9560-4647-b6c6-4bc846891ea8
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 | 1x US Washington
+  password: 94f794d2-9560-4647-b6c6-4bc846891ea8
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

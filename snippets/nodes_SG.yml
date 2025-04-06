@@ -1,34 +1,89 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 2c2add73-5106-4810-936f-55402821ba43
+  password: 62e55818-e95f-40ab-a8ee-d34b21b77e66
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 2c2add73-5106-4810-936f-55402821ba43
+  password: 62e55818-e95f-40ab-a8ee-d34b21b77e66
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 2c2add73-5106-4810-936f-55402821ba43
+  password: 62e55818-e95f-40ab-a8ee-d34b21b77e66
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 25215f74-ded4-4bcd-bbb7-91c21bf2e10d
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 25215f74-ded4-4bcd-bbb7-91c21bf2e10d
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 25215f74-ded4-4bcd-bbb7-91c21bf2e10d
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  6.1MB/s
+  country: 🇺🇸US
+  delay: 2869
+  name: 2|🇸🇬1 |  3.1MB/s
   password: amazonskr05
   port: 443
-  server: 54.179.52.175
+  server: 47.129.230.32
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬3 |  1.6MB/s
+  name: 2|🇸🇬2 |  4.0MB/s
+  port: 3681
+  server: acf4fa28-sudhc0-t33mcq-4tx.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
+- cipher: aes-256-cfb
+  name: 2|🇸🇬4 |  2.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.140.70.168
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  country: 🇸🇬SG
+  delay: 555
+  name: 2,12|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.5.171
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  delay: 1414
+  name: 2|🇸🇬6 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.202.70
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇸🇬8 |  4.3MB/s
   port: 3681
   server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
   tls: false
@@ -36,67 +91,22 @@ proxies:
   uuid: 82efba2c-f420-11ef-9529-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬6 |  6.0MB/s
-  port: 4135
-  server: 884b8b44-sudhc0-svm3vt-czv5.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬8 |  3.0MB/s
-  port: 4137
-  server: 77ccebe9-sudhc0-syoixd-bm0y.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 12|🇸🇬 新加坡|@ripaojiedian
   port: 4135
-  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.61.152
-  tfo: false
-  type: ss
+  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 13|新加坡|@ripaojiedian
   network: tcp
   port: '4135'
-  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
   servername: ''
   tls: false
   type: vmess
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+  uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3

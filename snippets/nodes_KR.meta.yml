@@ -1,62 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 2c2add73-5106-4810-936f-55402821ba43
+  password: 62e55818-e95f-40ab-a8ee-d34b21b77e66
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 2c2add73-5106-4810-936f-55402821ba43
+  password: 62e55818-e95f-40ab-a8ee-d34b21b77e66
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 1|🇰🇷1 |  2.1MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 13483
-  server: agaungzhou01.bumbleshrimp.com
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 25215f74-ded4-4bcd-bbb7-91c21bf2e10d
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  6.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.34.142.98
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 25215f74-ded4-4bcd-bbb7-91c21bf2e10d
+  port: 31313
+  server: free.2apzhfa.xyz
   type: ss
-- cipher: aes-256-cfb
-  name: 1|🇰🇷3 |  5.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 43.202.67.225
-  type: ss
-- name: 1|🇰🇷4 |  1.2MB/s
+  udp: true
+- name: 2|🇰🇷1 |  3.0MB/s
   network: ws
   port: 80
-  server: 45.131.5.145
-  servername: gozargah.validbv7996.ir
+  server: 45.131.5.164
   tls: false
   type: vless
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳 @MxlShare@WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 01 | 1x KR
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
-  port: 31311
-  server: free.2apzhfa.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: 2|🇰🇷2 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.34.142.98
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷韩国 02 | 1x KR
-  password: c422f3d0-4ee2-4952-8f69-9e717bda9c27
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -74,11 +61,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.238.109.190
-  tfo: false
-  type: ss

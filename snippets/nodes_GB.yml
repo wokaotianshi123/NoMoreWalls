@@ -1,50 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰 香港 01 | 1x HK
-  password: 85cb8fa5-7af5-4adf-9a84-054f84db783d
+  password: b0a53da8-d623-4404-984c-210b1f2f6819
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 85cb8fa5-7af5-4adf-9a84-054f84db783d
+  password: b0a53da8-d623-4404-984c-210b1f2f6819
   port: 36271
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: e433c25c-2c84-414f-aca7-26d9d152e518
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: e433c25c-2c84-414f-aca7-26d9d152e518
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇬🇧1 |  4.8MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 479412b4-406c-3292-937e-c5d3f596d21a
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇬🇧 英国|@ripaojiedian
+  name: 11|🇬🇧 英国|@ripaojiedian
   password: c46ba905-31de-4090-8153-ec7d2e063079
   port: 30004
   server: 156.229.162.50
@@ -52,17 +23,31 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇬🇧 英国2|@ripaojiedian
+  name: 11|🇬🇧 英国2|@ripaojiedian
   password: 95821db5-66eb-4b5f-a854-f129093e6d47
   port: 30004
   server: 156.229.162.50
   tfo: false
   type: ss
-- name: 14|GB_speednode_0008
+- name: 13|GB_speednode_0008
   password: b19c4375-d847-4c40-9824-4767c88b5f38
   port: 10200
   server: www.ak-hk.top
   skip-cert-verify: true
   sni: www.ak-hk.top
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: 3573f806-1075-468c-8ac0-744d098b5bdb
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 3573f806-1075-468c-8ac0-744d098b5bdb
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true

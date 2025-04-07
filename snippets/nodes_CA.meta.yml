@@ -1,37 +1,14 @@
 proxies:
-- name: 0,13|US_speednode_0082
-  network: ws
-  port: 443
-  server: www.digitalocean.com
-  servername: zx.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: zx.ylka.dpdns.org
-    path: /?ed=2560
-- auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  client-fingerprint: chrome
-  name: 0|🇨🇦2 |  1.1MB/s
-  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-  port: 45979
-  server: 192.18.145.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦 加拿大 01 | 1x CA
-  password: 50a94f1f-0b3a-47a1-bb1f-3bd45c42ba2d
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 85cb8fa5-7af5-4adf-9a84-054f84db783d
   port: 36441
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦加拿大 01 | 1x CA
-  password: 92432191-31a6-44e7-b274-dbe93df4fe8c
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: e433c25c-2c84-414f-aca7-26d9d152e518
   port: 31441
   server: free.2apzhfa.xyz
   type: ss

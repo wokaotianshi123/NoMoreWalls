@@ -1,23 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: c4fb5ec4-229e-49d5-bead-0ef87d26e3ca
+  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
-  password: ac8f0880-859b-453f-9733-b31586c7bda3
+  password: 19a92edc-dd7a-438f-99d3-467e4925c437
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 12|🇩🇪 德国|@ripaojiedian
-  password: HWJLNN7IJAY93SO1
-  port: 20030
-  server: 45.154.207.246
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪4 |  5.7MB/s
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.71.217
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 1t3chx0.zed23.web1337.net
+    id: 9072d339-3885-4fe1-b0bc-29fa7505410e
+    net: ws
+    path: /fixedfloati.cfd/linkwsd
+    port: 443
+    ps: 🇺🇸 US_310
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.71.217
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd

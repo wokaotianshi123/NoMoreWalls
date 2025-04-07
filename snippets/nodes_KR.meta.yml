@@ -1,32 +1,130 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 25cd6996-567d-40d6-a67a-eb1bce770f3d
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: d07fe4ef-fa1e-46d2-a81a-5e4287d992d9
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 02 | 1x KR
-  password: 19a92edc-dd7a-438f-99d3-467e4925c437
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: d07fe4ef-fa1e-46d2-a81a-5e4287d992d9
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: 60692634-267b-4e3a-b79f-38ce6739143a
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: 60692634-267b-4e3a-b79f-38ce6739143a
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇰🇷1 |  1.1MB/s
+  network: ws
+  port: 443
+  server: otto.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷2 |  1.1MB/s
+  network: ws
+  port: 443
+  server: rustam.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷3 |  3.2MB/s
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷4 |  1.8MB/s
+  network: ws
+  port: 443
+  server: uriah.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷5 |  1.3MB/s
+  network: ws
+  port: 443
+  server: dylan.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷6 |  1.3MB/s
+  network: ws
+  port: 443
+  server: lewis.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 2|🇰🇷7 |  4.0MB/s
+  network: ws
+  port: 443
+  server: abdullah.ns.cloudflare.com
+  servername: zx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx.ylka.dpdns.org
+    path: /?ed=2560
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

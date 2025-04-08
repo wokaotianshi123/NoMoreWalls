@@ -1,19 +1,33 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: c27eb47b-a7a7-4b1d-9ff8-e586de688376
+  password: d379c34f-1552-4f53-a3eb-1c99948ec3a6
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: c27eb47b-a7a7-4b1d-9ff8-e586de688376
+  password: d379c34f-1552-4f53-a3eb-1c99948ec3a6
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1,13|NL_speednode_0027
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: bcf1dca5-b16b-48d0-a2fe-1f1fdd733389
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: bcf1dca5-b16b-48d0-a2fe-1f1fdd733389
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 2,14|NL_speednode_0027
   network: ws
   port: 80
   server: 45.131.4.228
@@ -27,10 +41,53 @@ proxies:
     headers:
       Host: gozargah.validbv7996.ir
     path: /Telegram🇨🇳 @MxlShare@WangCai2
+- name: 2,14|NL_speednode_0028
+  network: ws
+  port: 80
+  server: 45.131.4.116
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
+- name: 2|🇰🇷3 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.126
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: Telegram🇨🇳@WangCai2/?ed
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2,14|NL_speednode_0048
+  network: ws
+  port: 80
+  server: 45.131.5.67
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: ws
   port: '30828'
   server: v28.heduian.link
@@ -46,23 +103,9 @@ proxies:
     path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.140.50.192
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: c4589446-0a0e-49ea-88a9-dfc0c2b6b472
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: c4589446-0a0e-49ea-88a9-dfc0c2b6b472
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

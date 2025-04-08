@@ -1,49 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d379c34f-1552-4f53-a3eb-1c99948ec3a6
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d379c34f-1552-4f53-a3eb-1c99948ec3a6
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d379c34f-1552-4f53-a3eb-1c99948ec3a6
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: bcf1dca5-b16b-48d0-a2fe-1f1fdd733389
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: bcf1dca5-b16b-48d0-a2fe-1f1fdd733389
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: bcf1dca5-b16b-48d0-a2fe-1f1fdd733389
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸18 |  2.1MB/s
+  network: tcp
+  port: '46597'
+  server: 120.232.153.41
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸25 |  5.3MB/s
+  name: 1|🇺🇸32 |  5.7MB/s
   network: ws
   port: 2053
   raw:
@@ -71,9 +58,28 @@ proxies:
     headers:
       Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
+- cipher: aes-256-cfb
+  name: 1|🇺🇸36 |  5.6MB/s
+  password: 463qwerty
+  port: 463
+  server: 35.93.139.175
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸39 |  5.8MB/s
+  network: ws
+  port: '2053'
+  server: 1744007541.tencentapp.cn
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -86,7 +92,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
+  name: 11,12|美国2|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -103,7 +109,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   port: 14100
   server: dxv4.pai50288.uk
   skip-cert-verify: false
@@ -113,7 +119,7 @@ proxies:
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - alterId: 0
   cipher: auto
-  name: 13|美国3|@ripaojiedian
+  name: 12|美国3|@ripaojiedian
   network: tcp
   port: '14100'
   server: dxv4.pai50288.uk
@@ -121,3 +127,24 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

@@ -1,54 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: b0a53da8-d623-4404-984c-210b1f2f6819
+  password: 2aea58a1-fd22-49d7-b26f-2559f07acd02
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: b0a53da8-d623-4404-984c-210b1f2f6819
+  password: 2aea58a1-fd22-49d7-b26f-2559f07acd02
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: b0a53da8-d623-4404-984c-210b1f2f6819
+  password: 2aea58a1-fd22-49d7-b26f-2559f07acd02
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵1 |  5.9MB/s
-  network: tcp
-  port: 35659
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,13|NL_speednode_0060
-  network: ws
-  port: 80
-  server: 45.131.4.187
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵3 |  2.4MB/s
+  name: 1|🇯🇵1 |  6.1MB/s
   network: tcp
   port: 48121
   reality-opts:
@@ -58,8 +32,75 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 1|🇯🇵2 |  6.0MB/s
+  port: 4151
+  server: 5ba5b6bd-suh6o0-svqrrs-4cwg.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇯🇵3 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 104.215.58.230
+  servername: gkkui8.azurewebsites.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: gkkui8.azurewebsites.net
+    path: /
+- name: 1|🇯🇵4 |  1.5MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.131
+  servername: gozargah.validbv7996.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇯🇵5 |  1.4MB/s
+  network: ws
+  port: 443
+  server: joinmahdiserver-zao.pages.dev
+  servername: JoINmaHdIsERveR-Zao.pagES.DEv
+  tls: true
+  type: vless
+  udp: false
+  uuid: f85486d0-2dfd-48ea-8844-75a1ba35287c
+  ws-opts:
+    headers:
+      Host: joinmahdiserver-zao.pages.dev
+    path: /SkpR5WCwJIJHUed3?ed=2560
+- name: 1,14|NL_speednode_0049
+  network: ws
+  port: 80
+  server: 45.131.4.151
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  ws-opts:
+    headers:
+      Host: gozargah.validbv7996.ir
+    path: /Telegram🇨🇳 @MxlShare@WangCai2
 - client-fingerprint: chrome
-  name: 1,13|JP_speednode_0010
+  name: 1,14|JP_speednode_0010
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -71,7 +112,35 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵5 |  5.9MB/s
+  name: 1|🇯🇵8 |  6.2MB/s
+  network: tcp
+  port: 16497
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇯🇵9 |  5.7MB/s
+  network: ws
+  port: 80
+  server: 45.131.210.102
+  servername: 901.dbodanwi.workers.dev
+  tls: false
+  type: vless
+  udp: false
+  uuid: 6f183280-b258-437a-a216-e83f7dece776
+  ws-opts:
+    headers:
+      Host: 901.dbodanwi.workers.dev
+    path: Telegram@WangCai2/?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇯🇵10 |  6.1MB/s
   network: tcp
   port: 10635
   reality-opts:
@@ -83,123 +152,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵6 |  5.0MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,13|NL_speednode_0048
-  network: ws
-  port: 80
-  server: 45.131.4.248
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵8 |  1.4MB/s
-  network: tcp
-  port: 31735
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,13|NL_speednode_0035
-  network: ws
-  port: 80
-  server: 45.131.5.101
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /Telegram🇨🇳@WangCai2
-- name: 1,13|NL_speednode_0041
-  network: ws
-  port: 80
-  server: 45.131.4.33
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵11 |  5.6MB/s
-  network: tcp
-  port: 11839
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gy01.hunheiydd.xyz
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1,13|NL_speednode_0056
-  network: ws
-  port: 80
-  server: 45.131.4.151
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-  ws-opts:
-    headers:
-      Host: gozargah.validbv7996.ir
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare@WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵13 |  5.2MB/s
-  network: tcp
-  port: 14548
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵14 |  1.1MB/s
-  network: tcp
-  port: 10635
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇯🇵15 |  6.2MB/s
+  name: 1|🇯🇵11 |  1.8MB/s
   network: tcp
   port: 25768
   reality-opts:
@@ -211,30 +164,66 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇯🇵16 |  5.7MB/s
+  name: 1|🇯🇵12 |  2.7MB/s
   network: tcp
-  port: 13989
+  port: 17278
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: gateway.icloud.com
+  server: shenzhou05.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 1|🇯🇵17 |  5.4MB/s
+- name: 1,14|NL_speednode_0015
   network: ws
   port: 80
-  server: 45.131.4.188
+  server: 45.131.5.119
+  servername: gozargah.validbv7996.ir
+  skip-cert-verify: true
   tls: false
   type: vless
+  udp: true
   uuid: c5293efa-28f8-4a0f-8f34-541078970cee
   ws-opts:
     headers:
       Host: gozargah.validbv7996.ir
-    path: /
+    path: /Telegram🇨🇳 @MxlShare@WangCai2/?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|🇯🇵14 |  5.5MB/s
+  network: tcp
+  port: 14548
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 01 | 1x JP
+  password: 07d6e195-225f-468c-92f7-4c5cb6f4d4a1
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 02 | 1x JP
+  password: 07d6e195-225f-468c-92f7-4c5cb6f4d4a1
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵日本 03 | 1x JP
+  password: 07d6e195-225f-468c-92f7-4c5cb6f4d4a1
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -246,7 +235,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: TTY07WM37NEXCPQB
   port: 18012
   server: 156.231.104.22
@@ -254,7 +243,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: V87NZNS8MU6PXNMO
   port: 18005
   server: 156.231.104.15
@@ -263,7 +252,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   port: 31842
   server: 45.159.50.212
   skip-cert-verify: false
@@ -273,7 +262,7 @@ proxies:
   uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 35.72.13.55
@@ -281,7 +270,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本4|@ripaojiedian
+  name: 13|日本4|@ripaojiedian
   network: tcp
   port: '31842'
   server: 45.159.50.212
@@ -289,24 +278,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 01 | 1x JP
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 02 | 1x JP
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵日本 03 | 1x JP
-  password: 3573f806-1075-468c-8ac0-744d098b5bdb
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

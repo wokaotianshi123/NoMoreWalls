@@ -1,11 +1,15 @@
 proxies:
-- allowInsecure: ''
-  name: 2|🌀7-SE |  5.6MB/s
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.50.127.62
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
+- client-fingerprint: ''
+  flow: ''
+  grpc-opts:
+    grpc-service-name: vless-grpc
+  mode: ''
+  name: 1|🌀10-SE |  1.9MB/s
+  network: grpc
+  port: 8880
+  server: ::ffff:78.40.117.69
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 3af682f1-3e13-4216-9a4a-49953d4009c3

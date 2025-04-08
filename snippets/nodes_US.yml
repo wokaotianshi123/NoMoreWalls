@@ -1,61 +1,36 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 8f11cf44-8a58-4e7a-8557-a1681ff7e76c
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 8f11cf44-8a58-4e7a-8557-a1681ff7e76c
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 8f11cf44-8a58-4e7a-8557-a1681ff7e76c
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: e0f06018-d7e9-4c9c-8986-a9c30634b915
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: e0f06018-d7e9-4c9c-8986-a9c30634b915
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: e0f06018-d7e9-4c9c-8986-a9c30634b915
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸12 |  3.7MB/s
+  name: 1|🇺🇸16 |  4.7MB/s
   network: ws
-  port: 2096
-  server: ny2-dash.930.pp.ua
-  servername: ny2-dash.930.pp.ua
+  port: 8088
+  server: ora2.aihi.uk
+  servername: ora2.aihi.uk
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
   ws-opts:
     headers:
-      Host: ny2-sub.930.pp.ua
-    path: /ny2-sub.930.pp.ua
+      Host: ora2.aihi.uk
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸18 |  4.0MB/s
+  network: ws
+  port: 8088
+  server: 64.181.241.241
+  servername: ora2.aihi.uk
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
+  ws-opts:
+    headers:
+      Host: ora2.aihi.uk
+    path: /ray
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇺🇸 美国|@ripaojiedian

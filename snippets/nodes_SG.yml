@@ -1,29 +1,66 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 1fb6b4eb-4bef-4e8b-9210-413bc7ba94a4
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 1fb6b4eb-4bef-4e8b-9210-413bc7ba94a4
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 1fb6b4eb-4bef-4e8b-9210-413bc7ba94a4
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: 512e8b4c-f9ab-44eb-b10b-d34ee76d7a99
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: 512e8b4c-f9ab-44eb-b10b-d34ee76d7a99
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 3ffb0341-64e7-4d82-a657-29aa7afb559b
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: 512e8b4c-f9ab-44eb-b10b-d34ee76d7a99
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 2|🇸🇬1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      HOST: sg02s.de15-5483-d16b.sbs
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '16618'
   server: yes.mojcn.com
@@ -40,7 +77,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 4137
   server: 41158001-suh6o0-sv6d5y-ddgs.c.volczijie.com
   skip-cert-verify: false
@@ -50,7 +87,7 @@ proxies:
   uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '4137'
   server: 41158001-suh6o0-sv6d5y-ddgs.c.volczijie.com
@@ -58,24 +95,3 @@ proxies:
   tls: false
   type: vmess
   uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 01 | 1x SG
-  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 02 | 1x SG
-  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬新加坡 03 | 1x SG
-  password: 5a21ed27-222d-4920-9e36-fbdbd33bf9e9
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

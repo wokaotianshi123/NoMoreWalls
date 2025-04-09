@@ -1,32 +1,9 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|🇹🇼5 |  5.7MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇹🇼 台湾|@ripaojiedian
-  password: a5633270-44fd-4071-90ef-c6d47d8e61a7
-  port: 45632
-  server: iepl.ytxfx.xyz
+  password: d316fca3-e4ca-4774-8230-24a8fb9f99f6
+  port: 10239
+  server: 120.234.255.61
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
-  network: ws
-  port: '16616'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
-  ws-opts:
-    headers:
-      Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
-    path: /

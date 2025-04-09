@@ -1,17 +1,32 @@
 proxies:
-- name: 1|🇭🇰7 |  3.3MB/s
+- name: 1|🇭🇰1 |  6.3MB/s
+  password: e9e5933c-87a2-37d0-a7f5-e1334102ffd6
+  port: 20294
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z294.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 1|🇭🇰2 |  5.1MB/s
   password: d4c22fd9-1474-4e9f-baf7-80b162f3e60c
   port: 12002
   server: cn1.cdn.xfltd-cdn.top
   skip-cert-verify: true
   sni: cdn.alibaba.com
   type: trojan
-- name: 1|🇭🇰11 |  5.1MB/s
-  password: a25ed269-105b-4f15-bee2-bc2785d38912
-  port: 12221
-  server: 120.198.71.173
-  skip-cert-verify: true
-  sni: 120.198.71.173
+- alterId: 64
+  cipher: auto
+  name: 1|🇭🇰5 |  4.1MB/s
+  port: 36609
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 1|🇭🇰6 |  6.3MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  sni: hk06.run.place
   type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -128,3 +143,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 14|HK_speednode_0084
+  password: 4467ae8518abf1ef321618c0bfb5549c
+  port: 28106
+  server: starlink-hkt2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true

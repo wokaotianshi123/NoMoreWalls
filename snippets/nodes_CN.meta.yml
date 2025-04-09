@@ -1,18 +1,6 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🌀15-CN |  5.9MB/s
-  network: tcp
-  port: 62157
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou02.mysynology.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 14|CN_speednode_0002
   port: 31800
   reality-opts:
@@ -20,6 +8,19 @@ proxies:
   server: agaungzhou01.bumbleshrimp.com
   servername: www.nvidia.com
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0004
+  port: 47531
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -89,6 +90,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 14|CN_speednode_0012
+  port: 25135
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 14|CN_speednode_0013
   port: 16704
   reality-opts:
@@ -115,6 +129,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 14|CN_speednode_0015
+  port: 15700
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 14|CN_speednode_0016
   port: 11555
   reality-opts:
@@ -128,11 +155,11 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CN_speednode_0019
-  port: 12477
+  name: 14|CN_speednode_0017
+  port: 48121
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
+  server: beiyong.dynuddns.net
   servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
@@ -219,11 +246,11 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CN_speednode_0027
-  port: 14548
+  name: 14|CN_speednode_0029
+  port: 31735
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
@@ -232,12 +259,25 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CN_speednode_0029
-  port: 31735
+  name: 14|CN_speednode_0030
+  port: 21578
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0031
+  port: 22734
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: bsuqian01.dynu.net
-  servername: www.nvidia.com
+  servername: www.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
@@ -336,6 +376,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 14|CN_speednode_0040
+  port: 46372
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 14|CN_speednode_0041
   port: 12791
   reality-opts:
@@ -362,11 +415,11 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CN_speednode_0044
-  port: 23301
+  name: 14|CN_speednode_0043
+  port: 16497
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: zhee01.dynu.net
   servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
@@ -414,11 +467,24 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CN_speednode_0051
-  port: 27011
+  name: 14|CN_speednode_0048
+  port: 22054
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
+  server: zhee01.dynu.net
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0050
+  port: 50200
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
   servername: www.amazon.com
   skip-cert-verify: true
   tls: true
@@ -432,6 +498,19 @@ proxies:
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: shenzhou05.mysynology.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0054
+  port: 65053
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
   servername: www.amazon.com
   skip-cert-verify: true
   tls: true
@@ -479,12 +558,64 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 14|CN_speednode_0058
+  port: 17889
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: gateway.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 14|CN_speednode_0059
   port: 30206
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: bsuqian01.dynu.net
   servername: addons.mozilla.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0061
+  port: 38311
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: zhee01.dynu.net
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0062
+  port: 40581
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: bsuqian01.dynu.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|CN_speednode_0064
+  port: 14659
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: csuzhou01.1cooldns.com
+  servername: www.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
@@ -518,6 +649,19 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 14|CN_speednode_0068
+  port: 12597
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 14|CN_speednode_0069
   port: 32055
   reality-opts:
@@ -536,19 +680,6 @@ proxies:
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
   server: agaungzhou01.bumbleshrimp.com
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 14|CN_speednode_0071
-  port: 29023
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
   servername: www.amazon.com
   skip-cert-verify: false
   tls: true

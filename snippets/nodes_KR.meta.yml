@@ -1,34 +1,36 @@
 proxies:
-- name: 1|🇰🇷1 |  1.7MB/s
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇰🇷1 |  2.0MB/s
   network: ws
-  port: 80
-  server: 45.131.5.99
-  servername: gozargah.validbv7996.ir
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: 104.18.181.3
+  servername: ZyZZZOAO.PutaTa.EU.oRG
+  tls: true
   type: vless
-  udp: true
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  udp: false
+  uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: /
+      Host: zyzzzoao.putata.eu.org
+    path: /rcSLZKdweUgLgufD?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇰🇷2 |  5.5MB/s
+  name: 1|🇰🇷2 |  5.8MB/s
   network: ws
-  port: 80
-  server: 45.131.5.67
+  port: 2052
+  server: 104.26.13.101
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+  uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
   ws-opts:
     headers:
-      Host: gozargah.validbv7996.ir
-    path: /
+      Host: Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt
+    path: /Telegram@V2ray_Alpha/?ed=1080
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

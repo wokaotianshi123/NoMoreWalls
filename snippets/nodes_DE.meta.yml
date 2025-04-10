@@ -2,72 +2,38 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  5.6MB/s
+  name: 1|🇩🇪1 |  5.1MB/s
   network: tcp
-  port: 443
+  port: 3661
   reality-opts:
-    public-key: 7Dd-Z14Mxvy_CJmFe5Q-StNR2ZloyDeMAC6MEVSq4yg
-    short-id: e9
-  server: mw8.niassa.ir
-  servername: mw8.niassa.ir
+    public-key: f8TgqVBYK3tmhip3lJ-r8D0i6fqEF1Zy-zAfEhS-Cl8
+    short-id: 67a1a8bb9ff0ed21
+  server: 157.180.73.74
+  servername: icloud.com
   tls: true
   type: vless
   udp: false
-  uuid: 99b7f7d7-0c5f-463c-8f3c-548e15f5ae28
-- cipher: rc4-md5
-  name: 1|🇩🇪2 |  5.4MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- client-fingerprint: chrome
+  uuid: d3bf83fe-f50f-42e4-976f-01aeff84d369
+- client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪3 |  5.4MB/s
+  name: 1|🇩🇪2 |  1.9MB/s
   network: ws
-  port: 2053
-  server: 104.21.69.44
-  servername: all22.kikforwindows.com
-  tls: true
+  port: 8880
+  server: 31.22.116.154
+  servername: ''
+  tls: false
   type: vless
   udp: false
-  uuid: 78905d87-0266-4825-868d-3069e88d1201
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   ws-opts:
     headers:
-      Host: all22.kikforwindows.com
-    path: /containers/de
+      Host: redfree8.pooriashop.ir
+    path: /Telegram@V2ray_Alpha
 - client-fingerprint: edge
   flow: ''
   mode: ''
-  name: 1|🇩🇪4 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 172.67.189.227
-  servername: cdn.packageclub.net
-  tls: true
-  type: vless
-  udp: false
-  uuid: be88b352-bc2e-45bf-abeb-cc117cf6f884
-  ws-opts:
-    headers:
-      Host: cdn.packageclub.net
-    path: /ws-connect/download/update/check/version/2.1.9/patch/force
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇩🇪5 |  5.5MB/s
-  network: tcp
-  port: 58031
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: edge
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪6 |  5.8MB/s
+  name: 1|🇩🇪3 |  2.9MB/s
   network: ws
   port: 443
   server: cdn.packageclub.net
@@ -83,7 +49,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  5.9MB/s
+  name: 1|🇩🇪4 |  5.8MB/s
   network: ws
   port: 443
   server: mw7.transitkala.com
@@ -96,53 +62,83 @@ proxies:
     headers:
       Host: mw7.transitkala.com
     path: /
-- client-fingerprint: chrome
-  flow: ''
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪8 |  3.8MB/s
+  name: 1|🇩🇪5 |  5.1MB/s
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 7Dd-Z14Mxvy_CJmFe5Q-StNR2ZloyDeMAC6MEVSq4yg
-    short-id: e9
-  server: 91.107.244.16
-  servername: mw8.niassa.ir
+  server: 204.10.194.78
+  servername: yfnl1.xn--4gq62f52gppi29k.com
   tls: true
   type: vless
   udp: false
-  uuid: 99b7f7d7-0c5f-463c-8f3c-548e15f5ae28
+  uuid: 6f786c4e-6402-4269-98d3-c383fb1708da
+- auth: dee29869-ae36-4504-89f5-8f06b7dc7a6a
+  name: 1|🇩🇪6 |  5.1MB/s
+  password: dee29869-ae36-4504-89f5-8f06b7dc7a6a
+  port: 1443
+  server: 94.159.107.136
+  skip-cert-verify: false
+  sni: de2.587458.xyz
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪7 |  4.5MB/s
+  network: ws
+  port: 2086
+  server: 46.101.152.69
+  servername: mrconfigchannel-cdn.hajalii.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: b4ed05e0-34a7-4b77-89fe-01172ff58f59
+  ws-opts:
+    path: /
+- client-fingerprint: edge
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪8 |  5.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.189.227
+  servername: cdn.packageclub.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: be88b352-bc2e-45bf-abeb-cc117cf6f884
+  ws-opts:
+    headers:
+      Host: cdn.packageclub.net
+    path: /ws-connect/download/update/check/version/2.1.9/patch/force
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  4.7MB/s
+  name: 1|🇩🇪9 |  4.6MB/s
   network: ws
-  port: 8080
-  server: 190.93.247.56
+  port: 2095
+  server: ns.cloudflare.com
   servername: ''
   tls: false
   type: vless
   udp: false
-  uuid: 51331216-24fe-4eda-8bf1-0f03d2c97915
+  uuid: a0bbdd91-8bf1-467e-cf91-5684222cf432
   ws-opts:
     headers:
-      Host: rsde.hpcdn.info
-    path: /?ed=2560
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇩🇪10 |  2.0MB/s
-  network: ws
-  port: 2082
-  server: 104.17.147.22
-  servername: ''
-  tls: false
-  type: vless
-  udp: false
-  uuid: f6cdccea-388f-4879-db2d-6a9bd500e7f6
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+      Host: xpntEamfree.sockSchangert.ir.
+    path: '@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam----@XpnTeam?ed=2048'
+- auth: 18463200c271aa6d
+  client-fingerprint: chrome
+  name: 1|🇩🇪10 |  4.2MB/s
+  obfs: salamander
+  obfs-password: 6c80ade6
+  password: 18463200c271aa6d
+  port: 443
+  server: rplcehysttya6.airlineshoma.com
+  skip-cert-verify: true
+  sni: vkvd127.mycdn.me
+  type: hysteria2
 - client-fingerprint: chrome
   name: 14|DE_speednode_0080
   port: 223

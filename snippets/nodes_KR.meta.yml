@@ -1,36 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 75dd07af-edc1-4978-ab40-ac4485973bfb
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: a24bcf50-2977-4f6f-af9b-4860dbd83af0
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: c985b6ad-f77b-4aa6-ab35-b1ddf0ec6b84
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: a24bcf50-2977-4f6f-af9b-4860dbd83af0
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: c985b6ad-f77b-4aa6-ab35-b1ddf0ec6b84
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 2|🇰🇷1 |  6.2MB/s
+- name: 1|🇰🇷1 |  2.7MB/s
   network: ws
   port: 443
-  server: ip.sb
+  server: 138.2.107.107
   servername: nx.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -39,21 +25,63 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: nx.ylka.dpdns.org
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷2 |  3.8MB/s
+  network: ws
+  port: 443
+  server: 129.146.46.164
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷3 |  1.0MB/s
+  network: ws
+  port: 443
+  server: 45.67.215.167
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷4 |  4.8MB/s
+  network: ws
+  port: 443
+  server: 141.147.185.63
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
     path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇰🇷2 |  5.6MB/s
+  name: 1|🇰🇷5 |  5.7MB/s
   port: 17232
   server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
-- name: 2|🇰🇷3 |  4.4MB/s
+- name: 1|🇰🇷6 |  1.7MB/s
   network: ws
-  port: 30012
-  server: 211.218.223.130
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
   servername: nx.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -64,10 +92,10 @@ proxies:
     headers:
       Host: nx.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷4 |  3.4MB/s
+- name: 1|🇰🇷7 |  1.8MB/s
   network: ws
   port: 443
-  server: 160.79.104.199
+  server: dylan.ns.cloudflare.com
   servername: nx.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -76,12 +104,40 @@ proxies:
   uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: nx.ylka.dpdns.org
+      host: nx.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷5 |  5.4MB/s
+- name: 1|🇰🇷8 |  3.5MB/s
   network: ws
   port: 443
-  server: abdullah.ns.cloudflare.com
+  server: www.wto.org
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷9 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 168.138.165.174
+  servername: nx.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: nx.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷10 |  2.1MB/s
+  network: ws
+  port: 443
+  server: bowen.ns.cloudflare.com
   servername: nx.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -95,7 +151,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|韩国|@ripaojiedian
+  name: 11,12|韩国|@ripaojiedian
   network: ws
   port: '30828'
   server: v28.heduian.link
@@ -111,9 +167,23 @@ proxies:
     path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  name: 11|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.39.252.80
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: b587a6bf-2db2-4186-ba88-06b07bd0862e
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: b587a6bf-2db2-4186-ba88-06b07bd0862e
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

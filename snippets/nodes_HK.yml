@@ -1,38 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
-  password: b8652853-d2b1-4a77-9712-a7993b97b8e7
+  password: 1b4148f6-0e9b-42f1-8481-b72280f7e19d
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: b8652853-d2b1-4a77-9712-a7993b97b8e7
+  password: 1b4148f6-0e9b-42f1-8481-b72280f7e19d
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
-  password: f210675d-a20e-4290-b230-3c5a35827fbc
+  password: 7c84b102-d2de-40d6-a26a-f7fa0027b336
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: f210675d-a20e-4290-b230-3c5a35827fbc
+  password: 7c84b102-d2de-40d6-a26a-f7fa0027b336
   port: 36145
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 2|🇭🇰2 |  1.2MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
-  type: ss
+- client-fingerprint: chrome
+  name: 2|🇭🇰1 |  1.3MB/s
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
+- name: 2|🇭🇰2 |  3.5MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  type: trojan
+  udp: true
+- name: 2|🇭🇰3 |  4.7MB/s
+  password: 47a61c4e-87ac-31ea-b4d6-1feec63eeae4
+  port: 43337
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z102.hongkongnode.top
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian

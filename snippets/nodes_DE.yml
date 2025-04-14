@@ -1,24 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
+  password: 181df440-976a-469b-bdb8-73c477d87b1a
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 1|🇩🇪1 |  5.0MB/s
-  network: tcp
-  password: 4467ae8518abf1ef321618c0bfb5549ccc
-  port: 60800
-  server: 130.61.173.105
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 14|🇩🇪德国 01 | 1x DE
-  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
+  password: fda3f7af-8915-4758-bd1d-727c6c0f570c
   port: 31471
   server: free.2apzhfa.xyz
   type: ss

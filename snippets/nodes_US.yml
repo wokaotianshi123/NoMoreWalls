@@ -1,42 +1,36 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- allowInsecure: ''
-  name: 1|🇺🇸6 |  2.3MB/s
-  network: ws
-  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  port: 443
-  server: 172.67.210.210
-  skip-cert-verify: false
-  sni: sanjose02.852224.ggff.net
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sanjose02.852224.ggff.net
-    path: /T5yZBrY2Qkg2cThJQeJb
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸18 |  5.3MB/s
+  network: tcp
+  port: '5228'
+  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸10 |  5.7MB/s
+  name: 1|🇺🇸10 |  4.7MB/s
   port: 5229
   server: e7d11ca5-surog0-t26vr3-1likw.cu.plebai.net
   tls: false
@@ -98,21 +92,21 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇺🇸美国 03 | 1x US Washington
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31215
   server: free.2apzhfa.xyz
   type: ss

@@ -1,39 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 746608c4-1e3f-4a57-b4e8-9879dd5c09cd
+  password: e7ebeb47-f9d9-4019-a0ba-6b31d04dd97a
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- allowInsecure: '1'
-  name: 1|🇹🇼7 |  4.6MB/s
-  network: ws
-  password: 02926f9e-153a-42c8-8ecd-8fade7009ad1
-  port: 443
-  server: 166.0.198.68
-  skip-cert-verify: true
-  sni: golinkwuxian.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 222.golinkwuxian.top
-    path: /apple
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇹🇼 台湾2|@ripaojiedian
@@ -52,21 +38,21 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 01 | 1x TW
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 02 | 1x TW
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 03 | 1x TW
-  password: f8055847-56b5-4b5d-a786-4df3d43dd442
+  password: df5fc1da-b81a-49b1-9776-d0aa114eea8f
   port: 31245
   server: free.2apzhfa.xyz
   type: ss

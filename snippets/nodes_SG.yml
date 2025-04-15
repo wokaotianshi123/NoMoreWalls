@@ -1,59 +1,45 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: eb82e354-32fb-4e10-bce0-c8546a569efb
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: eb82e354-32fb-4e10-bce0-c8546a569efb
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: eb82e354-32fb-4e10-bce0-c8546a569efb
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 36f55bb5-3cd8-4edf-a223-329ba9d90a4c
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 82abe71f-189c-401f-ab44-04b117ce3554
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 36f55bb5-3cd8-4edf-a223-329ba9d90a4c
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 82abe71f-189c-401f-ab44-04b117ce3554
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 36f55bb5-3cd8-4edf-a223-329ba9d90a4c
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 82abe71f-189c-401f-ab44-04b117ce3554
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬1 |  5.9MB/s
-  password: wUIFQcMM2K2VYdVz8GKyeE
-  port: 443
-  server: 13.212.90.20
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 2137d650-e424-4d1a-a610-135b485b914b
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
-- name: 2|🇸🇬3 |  6.1MB/s
-  password: bf3d849e-617e-399b-b468-7d0fac6e890b
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 2137d650-e424-4d1a-a610-135b485b914b
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 2137d650-e424-4d1a-a610-135b485b914b
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto

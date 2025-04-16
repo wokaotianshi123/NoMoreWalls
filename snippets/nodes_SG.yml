@@ -1,65 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 2e831b95-eff3-4407-a4fa-f5491efbc329
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: c1d378d0-455f-4788-a283-42701a87a78c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: c1d378d0-455f-4788-a283-42701a87a78c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: c1d378d0-455f-4788-a283-42701a87a78c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: a1abde0f-22e4-4953-b8d7-cb1fbea5df6e
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 2e831b95-eff3-4407-a4fa-f5491efbc329
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: a1abde0f-22e4-4953-b8d7-cb1fbea5df6e
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 2e831b95-eff3-4407-a4fa-f5491efbc329
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: a1abde0f-22e4-4953-b8d7-cb1fbea5df6e
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  5.7MB/s
-  password: e3b30d36-6036-3473-8a1b-453a21eaf7b5
-  port: 17806
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x65.flybar.work
-  tfo: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 1|🇸🇬2 |  6.2MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- cipher: aes-256-gcm
-  name: 1|🇸🇬4 |  6.1MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21115
-  server: okanc.node-is.green
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|🇸🇬5 |  6.2MB/s
-  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
-  port: 21114
-  server: okanc.node-is.green
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian
+  name: 12|🇸🇬 新加坡|@ripaojiedian
   port: 23910
   server: hzz9.fgmcx.top
   skip-cert-verify: false
@@ -69,7 +54,7 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 13203
   server: gg21.hangfengjiasu.com
@@ -77,7 +62,7 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.36.96.166
@@ -85,7 +70,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡|@ripaojiedian
+  name: 13|新加坡|@ripaojiedian
   network: tcp
   port: '23910'
   server: hzz9.fgmcx.top

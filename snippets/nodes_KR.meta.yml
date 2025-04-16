@@ -1,92 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 4c324973-6ad5-49f6-970c-c63a177a16c8
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 2e831b95-eff3-4407-a4fa-f5491efbc329
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 4c324973-6ad5-49f6-970c-c63a177a16c8
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 2e831b95-eff3-4407-a4fa-f5491efbc329
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  5.9MB/s
-  network: ws
-  port: 443
-  server: 192.18.130.65
-  servername: vc.ylka.dpdns.org
+- name: 1|🇰🇷1 |  6.4MB/s
+  password: e3b30d36-6036-3473-8a1b-453a21eaf7b5
+  port: 50355
+  server: gy.58n.net
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: z264.hongkongnode.top
+  tfo: true
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 1|🇰🇷2 |  5.4MB/s
-  network: ws
-  port: 2083
-  server: 172.67.75.52
-  servername: 23-lsjfjwiposkfls.hc2021.cfd
-  tls: true
-  type: vless
-  udp: false
-  uuid: 59860b15-b2d9-47f9-9b92-81bd1639fcc5
-  ws-opts:
-    headers:
-      Host: 23-lsjfjwiposkfls.hc2021.cfd
-    path: /flow=-udp443
-- client-fingerprint: ''
-  flow: ''
-  mode: ''
-  name: 1|🇰🇷3 |  2.1MB/s
-  network: ws
-  port: 443
-  server: 108.162.195.194
-  servername: vc.ylka.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: vc.ylka.dpdns.org
-    path: ''
-- name: 1|🇰🇷4 |  3.5MB/s
-  network: ws
-  port: 443
-  server: 198.62.62.4
-  servername: vc.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷5 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 160.123.255.18
-  servername: vc.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vc.ylka.dpdns.org
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -118,17 +53,3 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: c6af7ffa-72ef-4593-bdee-ca6f963fdddc
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: c6af7ffa-72ef-4593-bdee-ca6f963fdddc
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

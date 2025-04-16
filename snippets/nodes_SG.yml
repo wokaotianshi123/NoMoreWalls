@@ -1,62 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 49e7065b-a535-442a-a52f-54bd17a1c7da
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 49e7065b-a535-442a-a52f-54bd17a1c7da
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 49e7065b-a535-442a-a52f-54bd17a1c7da
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 2d1e0c9a-6a90-4cc0-8458-ee43d9c86c96
+  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 2d1e0c9a-6a90-4cc0-8458-ee43d9c86c96
+  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 2d1e0c9a-6a90-4cc0-8458-ee43d9c86c96
+  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 2|🇸🇬2 |  5.7MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b307ddd-7de5-334d-84da-b9320dbfc45f
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -81,7 +65,7 @@ proxies:
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.253.62
+  server: 3.36.96.166
   tfo: false
   type: ss
 - alterId: 0

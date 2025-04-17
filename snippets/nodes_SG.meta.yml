@@ -1,60 +1,64 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: 2026f440-6317-4016-bfe6-d88612c7a1d3
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: 2026f440-6317-4016-bfe6-d88612c7a1d3
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5c883803-c468-4905-a895-9fc798c3eebe
+  password: 2026f440-6317-4016-bfe6-d88612c7a1d3
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: ea1b471d-5b9e-4978-a128-f472757d3f54
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: ea1b471d-5b9e-4978-a128-f472757d3f54
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: fe454500-867f-4be0-a0c8-446b64067866
+  password: ea1b471d-5b9e-4978-a128-f472757d3f54
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 2|🇸🇬1 |  6.0MB/s
+  password: VMhGp5wEIyCDf90T
+  port: 38340
+  server: gysz0000.dynu.net
+  skip-cert-verify: true
+  sni: hk39.work.gd
+  type: trojan
 - client-fingerprint: chrome
-  delay: 1241
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0013
+  name: 2|🇸🇬2 |  6.2MB/s
   network: tcp
-  port: 56127
+  port: 29877
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: agaungzhou01.bumbleshrimp.com
-  servername: www.yahoo.com
-  skip-cert-verify: true
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
   tls: true
   type: vless
-  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -66,6 +70,21 @@ proxies:
   server: test123.zlqhdns.top
   servername: www.nvidia.com
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  delay: 1241
+  flow: xtls-rprx-vision
+  name: 2,14|CN_speednode_0013
+  network: tcp
+  port: 56127
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: agaungzhou01.bumbleshrimp.com
+  servername: www.yahoo.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true

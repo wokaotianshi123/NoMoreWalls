@@ -1,53 +1,64 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 2341feda-c1a6-4b0a-b313-33673ec33204
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 2341feda-c1a6-4b0a-b313-33673ec33204
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 2cf4b518-683a-40be-8dda-1b1946a1fc73
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 79ff4336-0e17-4939-9bb6-6235c5aa8397
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 2cf4b518-683a-40be-8dda-1b1946a1fc73
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 79ff4336-0e17-4939-9bb6-6235c5aa8397
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: f26d020f-ccae-4428-9dc2-3f6cb8e1126f
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: f26d020f-ccae-4428-9dc2-3f6cb8e1126f
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.35.132.172
+  tfo: false
+  type: ss
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 2|🇰🇷2 |  5.6MB/s
+  network: ws
+  port: 8443
+  server: 154.83.2.61
+  servername: vlee.amclubs.rr.nu
+  tls: true
+  type: vless
+  udp: false
+  uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+  ws-opts:
+    headers:
+      Host: vlee.amclubs.rr.nu
+    path: ''
 - alterId: 0
   cipher: auto
-  name: 2|🇰🇷1 |  2.6MB/s
+  name: 2|🇰🇷3 |  2.1MB/s
   port: 17232
   server: 2b6fa9f9-sum4g0-sv6oiy-1p1b.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 2|🇰🇷2 |  2.4MB/s
-  network: tcp
-  port: 17232
-  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  ws-headers:
-    Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
-  ws-path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国特殊|@ripaojiedian

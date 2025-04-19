@@ -1,42 +1,63 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5faf4013-d906-4eec-865a-76b795c2a2a6
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5faf4013-d906-4eec-865a-76b795c2a2a6
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5faf4013-d906-4eec-865a-76b795c2a2a6
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬1 |  5.7MB/s
+  network: ws
+  port: 2053
+  server: cloudflare.182682.xyz
+  servername: sg1.pavo.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  ws-opts:
+    headers:
+      Host: sg1.pavo.eu.org
+    path: /sg1vmess
+- cipher: chacha20-ietf
+  name: 1|🇸🇬4 |  1.6MB/s
+  password: asd123456
+  port: 8388
+  server: 107.148.37.70
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 533fcc61-ad18-4333-a618-c0fabe17b0ab
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 6c801c48-ccab-4bff-9583-bef874d6ac91
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 533fcc61-ad18-4333-a618-c0fabe17b0ab
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 6c801c48-ccab-4bff-9583-bef874d6ac91
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 533fcc61-ad18-4333-a618-c0fabe17b0ab
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 6c801c48-ccab-4bff-9583-bef874d6ac91
   port: 36175
   server: free.2weradf.xyz
   type: ss

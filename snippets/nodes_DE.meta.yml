@@ -1,34 +1,50 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 5faf4013-d906-4eec-865a-76b795c2a2a6
+  password: 916fb200-d968-452d-b1bd-0c03e71dc272
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- name: '1,10|🇫🇮@vpn_ioss ️  '
+  password: XOKGD8ZkgpGH0sBApcSpqpJI0
+  port: 18415
+  server: 3.68.116.86
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+  name: 1|🇩🇪2 |  4.4MB/s
+  password: 88925c12-4222-4ed3-84bd-6bfac300360f
+  port: 8443
+  server: dg1.gywanglug.xyz
+  skip-cert-verify: false
+  sni: dg1.gywanglug.xyz
+  type: hysteria2
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇩🇪3 |  5.7MB/s
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: 5dea11f6-47c8-4947-be08-46ba3e1777fe
+  ws-opts:
+    headers:
+      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 533fcc61-ad18-4333-a618-c0fabe17b0ab
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 6c801c48-ccab-4bff-9583-bef874d6ac91
   port: 36471
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ios
-  flow: ''
-  mode: ''
-  name: 2|🇩🇪1 |  5.4MB/s
-  network: ws
-  port: 443
-  server: 104.18.22.235
-  servername: nl1.yfjc.sbs
-  tls: true
-  type: vless
-  udp: false
-  uuid: cfc83feb-3bce-468c-b157-e1cdb9786283
-  ws-opts:
-    headers:
-      Host: nl1.yfjc.sbs
-    path: /yfjc/knl1
 - name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT

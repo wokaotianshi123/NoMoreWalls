@@ -1,53 +1,25 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: f5a34beb-ebac-4f86-81c1-81633ff0ca1e
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: f5a34beb-ebac-4f86-81c1-81633ff0ca1e
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: f5a34beb-ebac-4f86-81c1-81633ff0ca1e
+  password: 88000da0-9138-45e6-aeba-b3aee84e3809
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 70735ac9-c461-4b93-8d23-90af31c82c6f
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 70735ac9-c461-4b93-8d23-90af31c82c6f
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 70735ac9-c461-4b93-8d23-90af31c82c6f
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: 2|🇯🇵1 |  2.3MB/s
-  password: bd975dab-224e-4a10-8a69-0aa0c3ee3bec
-  port: 27002
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian

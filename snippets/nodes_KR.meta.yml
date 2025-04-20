@@ -1,49 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 4493224d-dce8-43c5-bfe5-9695b577c2c1
+  password: 5d7956f9-87ca-4ad9-ad9c-f0407d709e1b
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 4493224d-dce8-43c5-bfe5-9695b577c2c1
+  password: 5d7956f9-87ca-4ad9-ad9c-f0407d709e1b
   port: 36313
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  1.4MB/s
+- client-fingerprint: randomized
+  flow: ''
+  mode: ''
+  name: 1|🇰🇷1 |  2.3MB/s
   network: ws
   port: 443
-  server: 192.0.63.211
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
+  server: 104.17.15.166
+  servername: zYzzzOAo.pUtATa.eu.oRG
   tls: true
   type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  udp: false
+  uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
   ws-opts:
     headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|🇰🇷2 |  3.4MB/s
-  network: tcp
-  port: 21082
-  reality-opts:
-    public-key: tf7ZDGaue4C43MM0ECIfjOS-0kk7XMSqfnaSY4Er5Fc
-    short-id: 758719a6080f2767
-  server: tw-ty-line1-2-2.sudatech.store
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  uuid: e7adaa99-8363-3ec4-b849-307c99005405
+      Host: zyzzzoao.putata.eu.org
+    path: /tbSRLeOuwtLBToSL?ed=2560
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1,13|DE_speednode_0070
+  name: 1,13|SE_speednode_0098
+  network: ws
+  port: 8880
+  server: 185.146.173.167
+  servername: digitalscientificresearchgroup.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+  ws-opts:
+    headers:
+      Host: digitalscientificresearchgroup.ir
+    path: /TM-@AZARBAYJAB1/?ed=2560
+- name: 1,13|DE_speednode_0070
   network: ws
   port: 8880
   server: 185.135.9.83
@@ -57,20 +60,6 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /TM-@AZARBAYJAB1/?ed=2560
-- name: 1|🇰🇷4 |  4.7MB/s
-  network: ws
-  port: 8443
-  server: 158.180.230.4
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: bn.ylks0033.dpdns.org
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -102,14 +91,14 @@ proxies:
   uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 01 | 1x KR
-  password: 9f324f35-3729-48e0-9a87-939bd26bccd5
+  password: ba6b640f-5313-48c4-85d0-de0c655b900a
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇰🇷韩国 02 | 1x KR
-  password: 9f324f35-3729-48e0-9a87-939bd26bccd5
+  password: ba6b640f-5313-48c4-85d0-de0c655b900a
   port: 31313
   server: free.2apzhfa.xyz
   type: ss

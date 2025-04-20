@@ -1,70 +1,41 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 3504589c-e6b1-47e9-8443-00f98ab4606b
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 4493224d-dce8-43c5-bfe5-9695b577c2c1
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 3504589c-e6b1-47e9-8443-00f98ab4606b
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 4493224d-dce8-43c5-bfe5-9695b577c2c1
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 3504589c-e6b1-47e9-8443-00f98ab4606b
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 4493224d-dce8-43c5-bfe5-9695b577c2c1
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸2 |  4.6MB/s
-  network: tcp
-  port: 5229
-  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-headers:
-    Host: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
-  ws-path: /
-- allowInsecure: '1'
-  name: 1|🇺🇸5 |  2.6MB/s
-  network: original
-  password: 2342895f-ca91-49de-a409-2be44e77d05b
-  port: 27301
-  server: 45.146.232.173
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸7 |  2.8MB/s
+  name: 1|🇺🇸10 |  5.8MB/s
   network: tcp
   port: 5228
-  server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+  server: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+  uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9
   ws-headers:
-    Host: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
+    Host: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸11 |  5.5MB/s
-  port: 5228
-  server: fea38a5e-sum4g0-sv6oiy-1p1b.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 1|🇺🇸18 |  3.5MB/s
+  name: 1|🇺🇸6 |  4.6MB/s
   network: tcp
   port: 5228
   server: 157.148.96.92
@@ -75,31 +46,125 @@ proxies:
   ws-headers:
     Host: 157.148.96.92
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
-  password: f7f835a1-6c37-404b-81ea-b001ef0fc5e6
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸16 |  5.8MB/s
+  port: 5228
+  server: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 2b634c80-fd7e-11ef-9f25-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸22 |  5.7MB/s
+  network: tcp
+  port: 5229
+  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  ws-headers:
+    Host: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 1|🇺🇸24 |  2.1MB/s
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸26 |  5.7MB/s
+  port: 5229
+  server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: '0'
+  cipher: auto
+  name: 1|🇺🇸28 |  3.6MB/s
+  network: tcp
+  port: '5229'
+  server: 8f34e685-suz340-svvaj9-fa3p.cu.plebai.net
+  type: vmess
+  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1|🇺🇸31 |  1.8MB/s
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- allowInsecure: ''
+  name: 1,13|US_speednode_0109
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 104.21.23.115
+  skip-cert-verify: true
+  sni: 1cc.852224.ggff.net
+  tls: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: f7f835a1-6c37-404b-81ea-b001ef0fc5e6
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
+  ws-opts:
+    headers:
+      Host: 1cc.852224.ggff.net
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- allowInsecure: ''
+  name: 1,13|US_speednode_0110
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: 443
+  server: 172.67.210.210
+  skip-cert-verify: true
+  sni: 1cc.852224.ggff.net
+  tls: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸 美国 03 | 1x US Washington
-  password: f7f835a1-6c37-404b-81ea-b001ef0fc5e6
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: 1cc.852224.ggff.net
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 1|🇺🇸41 |  5.7MB/s
+  network: tcp
+  port: 5228
+  server: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 1|🇺🇸44 |  5.7MB/s
+  network: tcp
+  port: 5229
+  server: 0ecc8d37-sux8g0-swbudg-1mzwj.cu.plebai.net
+  type: vmess
+  uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -109,11 +174,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian 2
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -121,7 +186,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.107.226.14
@@ -130,17 +195,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 14100
-  server: 144.255.36.254
+  name: 11|🇺🇸 美国4|@ripaojiedian
+  port: 5229
+  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 13|美国2|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -150,11 +215,32 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|美国4|@ripaojiedian
+  name: 12|美国4|@ripaojiedian
   network: tcp
-  port: '14100'
-  server: 144.255.36.254
+  port: '5229'
+  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
   servername: ''
   tls: false
   type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 9f324f35-3729-48e0-9a87-939bd26bccd5
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 9f324f35-3729-48e0-9a87-939bd26bccd5
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 9f324f35-3729-48e0-9a87-939bd26bccd5
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

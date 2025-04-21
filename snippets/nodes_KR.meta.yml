@@ -1,22 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
+  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 1c35517e-6743-4c7a-b205-151b60273ec1
+  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: 1|🇰🇷1 |  2.1MB/s
+- name: 1|🇰🇷1 |  5.8MB/s
   network: ws
   port: 443
-  server: 160.79.104.199
+  server: 185.133.35.67
   servername: vv.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -27,35 +27,7 @@ proxies:
     headers:
       host: vv.ylka.dpdns.org
     path: /?ed=2560
-- name: 1|🇰🇷2 |  4.2MB/s
-  network: ws
-  port: 443
-  server: 192.18.143.57
-  servername: vv.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vv.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷3 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 160.79.105.77
-  servername: vv.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: vv.ylka.dpdns.org
-    path: /?ed=2560
-- name: 1|🇰🇷4 |  4.1MB/s
+- name: 1|🇰🇷2 |  4.6MB/s
   network: ws
   port: 443
   server: dnschecker.org
@@ -69,38 +41,73 @@ proxies:
     headers:
       host: vv.ylka.dpdns.org
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 1,12|🇰🇷 韩国2|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 13.125.129.4
-  tfo: false
-  type: ss
-- allowInsecure: ''
-  name: 1|🇰🇷6 |  2.0MB/s
+- delay: 1527
+  name: 1,14|NL_speednode_0036
   network: ws
-  password: redfree8
-  port: 443
-  server: 104.17.147.22
+  port: 80
+  server: 45.131.4.194
+  servername: digitalscientificresearchgroup.ir
   skip-cert-verify: false
-  sni: ipsychO.SUEx12.Ir
-  tls: true
-  type: trojan
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
   ws-opts:
     headers:
-      Host: ipsycho.suex12.ir
-    path: /trre5IzbZ9IZZMddtw?ed=2560
+      Host: digitalscientificresearchgroup.ir
+    path: /Lizard VPN🦎
+- name: 1|🇰🇷4 |  1.2MB/s
+  network: ws
+  port: 443
+  server: 45.67.215.167
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷5 |  5.7MB/s
+  network: ws
+  port: 443
+  server: sullivan.ns.cloudflare.com
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
+- name: 1|🇰🇷6 |  4.9MB/s
+  network: ws
+  port: 443
+  server: 160.79.105.155
+  servername: vv.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: vv.ylka.dpdns.org
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 01 | 1x KR
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇰🇷 韩国 02 | 1x KR
-  password: b5b3ff8b-b3b7-46f4-b28b-57520b0aa6df
+  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
   port: 36313
   server: free.2weradf.xyz
   type: ss
@@ -111,6 +118,14 @@ proxies:
   password: '!!str 1234'
   port: 1234
   server: 3.36.57.145
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇰🇷 韩国2|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 13.125.129.4
   tfo: false
   type: ss
 - alterId: 0

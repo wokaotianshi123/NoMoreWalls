@@ -1,42 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
   port: 36245
   server: free.2weradf.xyz
   type: ss
@@ -44,7 +23,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 10546
   server: xwogpb.cjjvmm.xyz
   skip-cert-verify: false
@@ -55,7 +34,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   port: 45285
   server: 36.150.232.128
   skip-cert-verify: false
@@ -65,7 +44,7 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '10546'
   server: xwogpb.cjjvmm.xyz
@@ -75,7 +54,7 @@ proxies:
   uuid: daa4d73e-aca3-3ef7-a9dd-3a2487fcb38d
 - alterId: 0
   cipher: auto
-  name: 13|台湾2|@ripaojiedian
+  name: 12|台湾2|@ripaojiedian
   network: tcp
   port: '45285'
   server: 36.150.232.128
@@ -83,3 +62,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

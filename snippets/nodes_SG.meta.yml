@@ -1,44 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31171
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
+  port: 36171
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31173
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
+  port: 36173
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: bd080e5d-5689-4611-8ee6-dc37165a1fa9
-  port: 31175
-  server: free.2apzhfa.xyz
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: db33ac3e-99f9-40ba-90d0-c8e7714c1e1c
+  port: 36175
+  server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 1|🇸🇬1 |  1.2MB/s
-  password: ae1eadae-43e8-3a6a-b671-bee4229f106e
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬2 |  6.3MB/s
-  port: 17231
-  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬3 |  1.7MB/s
+  name: 1|🇸🇬1 |  2.4MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -50,7 +34,35 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0012
+  name: 1|🇸🇬2 |  6.5MB/s
+  network: tcp
+  port: 10778
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: test123.zlqhdns.top
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: ''
+  flow: ''
+  mode: ''
+  name: 1|🇸🇬3 |  5.7MB/s
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  servername: ''
+  tls: false
+  type: vless
+  udp: false
+  uuid: b5540249-9ac4-4037-aacd-79c71052864f
+  ws-opts:
+    headers:
+      Host: free.pranithsandaruwan.cfd
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1,13|CN_speednode_0012
   network: tcp
   port: 29877
   reality-opts:
@@ -62,28 +74,7 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 03 | 1x SG
-  password: 91cb4cfb-e1d3-4004-9af9-97ac28d6b626
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇸🇬 @v2meowcf
+- name: 10|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -91,7 +82,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 11|新加坡
+- name: 10|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -99,7 +90,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -110,7 +101,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   port: 41902
   server: 183.236.51.38
   skip-cert-verify: false
@@ -120,7 +111,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  name: 11|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.230.173.71
@@ -128,7 +119,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 12|新加坡2|@ripaojiedian
   network: tcp
   port: '41902'
   server: 183.236.51.38
@@ -136,7 +127,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|SG_speednode_0042
+- name: 13|SG_speednode_0042
   network: ws
   port: 443
   server: 172.236.150.194
@@ -150,3 +141,24 @@ proxies:
     headers:
       Host: sgp.cayuo.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: f0bee2a4-6ba3-475c-8c86-97afc02f993c
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

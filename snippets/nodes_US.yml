@@ -1,77 +1,74 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: 27691edd-45f6-4331-9529-152e9def7f6b
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 27691edd-45f6-4331-9529-152e9def7f6b
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: 27691edd-45f6-4331-9529-152e9def7f6b
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 22fbc7ba-6461-4022-9773-310000be7a3b
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 344ac66e-e8f9-4841-9d46-5374918fcc84
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 22fbc7ba-6461-4022-9773-310000be7a3b
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 344ac66e-e8f9-4841-9d46-5374918fcc84
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: 22fbc7ba-6461-4022-9773-310000be7a3b
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 344ac66e-e8f9-4841-9d46-5374918fcc84
   port: 36215
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  delay: 1693
-  name: 2|🇺🇸3 |  5.6MB/s
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 176bfee2-15d2-4a99-a865-830ca20b0803
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸5 |  5.1MB/s
-  network: ws
-  port: 80
-  server: www.wn03.cc
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
   udp: true
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-  ws-opts:
-    headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
-- cipher: aes-128-cfb
-  name: 2|🇺🇸25 |  5.5MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 176bfee2-15d2-4a99-a865-830ca20b0803
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 176bfee2-15d2-4a99-a865-830ca20b0803
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 2,12|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
   type: ss
 - allowInsecure: ''
-  name: 2|🇺🇸32 |  5.1MB/s
+  name: 2|🇺🇸9 |  5.8MB/s
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 104.21.86.44
+  skip-cert-verify: false
+  sni: 10xcvb.he2022.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10xcvb.he2022.filegear-sg.me
+    path: /VEP415T5mby2DulPWRIwOavJd
+- allowInsecure: ''
+  name: 2|🇺🇸27 |  5.2MB/s
   network: ws
   password: f82fb954-06a1-4f0b-9180-17e07585b61f
   port: 443
@@ -84,6 +81,40 @@ proxies:
     headers:
       Host: 6tghjk.131.pp.ua
     path: /Yu29UN3Yz8hcnI3SlZor0
+- allowInsecure: ''
+  name: 2|🇺🇸33 |  1.8MB/s
+  network: ws
+  password: auto
+  port: 443
+  server: 172.66.45.2
+  skip-cert-verify: false
+  sni: dcf741e8.epeius-2gy.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dcf741e8.epeius-2gy.pages.dev
+    path: /?ed=2560
+- cipher: aes-128-cfb
+  name: 2|🇺🇸46 |  1.9MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸47 |  4.7MB/s
+  network: ws
+  port: 8443
+  server: skk.moe
+  servername: digitaloceanus.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
+  ws-opts:
+    headers:
+      Host: digitaloceanus.lzj520hxw.dpdns.org
+    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -95,37 +126,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504201238969-y462ONma73.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 97.107.140.236
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
-  port: 45251
-  server: 112.65.92.20
+  name: 12,13|美国3|@ripaojiedian
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 13|美国|@ripaojiedian
@@ -136,17 +153,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 13|美国3|@ripaojiedian
-  network: ws
-  port: '30807'
-  server: v7.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo

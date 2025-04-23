@@ -1,48 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 01 | 1x TW
-  password: 94e13ac8-9a74-46dd-8d4a-6872665e27f1
+  password: 97ea42d8-71ff-405c-93ab-7fcb3a45cbff
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 02 | 1x TW
-  password: 94e13ac8-9a74-46dd-8d4a-6872665e27f1
+  password: 97ea42d8-71ff-405c-93ab-7fcb3a45cbff
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼 台湾 03 | 1x TW
-  password: 94e13ac8-9a74-46dd-8d4a-6872665e27f1
+  password: 97ea42d8-71ff-405c-93ab-7fcb3a45cbff
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 1|🇹🇼14 |  4.5MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 33368
-  server: shenzhou05.mysynology.net
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 01 | 1x TW
-  password: 50b67c78-b0ac-4e08-a838-d3e5cfd66755
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 2d57445d-13cc-4c86-aee1-466ac5f3b611
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 02 | 1x TW
-  password: 50b67c78-b0ac-4e08-a838-d3e5cfd66755
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 2d57445d-13cc-4c86-aee1-466ac5f3b611
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼台湾 03 | 1x TW
-  password: 50b67c78-b0ac-4e08-a838-d3e5cfd66755
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 2d57445d-13cc-4c86-aee1-466ac5f3b611
   port: 31245
   server: free.2apzhfa.xyz
   type: ss

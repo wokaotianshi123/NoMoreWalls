@@ -1,48 +1,39 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 | 1x KR
-  password: 5adb284a-5064-4e16-a577-d254ccc5e7df
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 02 | 1x KR
-  password: 5adb284a-5064-4e16-a577-d254ccc5e7df
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: cfe10bae-e65d-4d45-958e-5ec8136de71a
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 090bd7a9-8cbe-433b-87b7-daeb90391c14
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: cfe10bae-e65d-4d45-958e-5ec8136de71a
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 090bd7a9-8cbe-433b-87b7-daeb90391c14
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2|🇰🇷1 |  5.2MB/s
+  name: 1|🇰🇷1 |  5.9MB/s
   password: qwerREWQ@@
   port: 58487
   server: p230.panda004.net
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2|🇰🇷2 |  1.7MB/s
-  password: qwerREWQ@@
-  port: 8772
-  server: p235.panda004.net
-  tfo: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 01 | 1x KR
+  password: 097f32e1-a889-40bb-816d-a589f06489b8
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇰🇷 韩国 02 | 1x KR
+  password: 097f32e1-a889-40bb-816d-a589f06489b8
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome

@@ -1,47 +1,70 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇸🇬1 |  6.2MB/s
+  password: ec6b43e1-a9a9-30af-a54e-274df6c5080b
+  port: 17806
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x65.flybar.work
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  mode: ''
+  name: 1|🇸🇬2 |  4.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7DC8gg_Ui9i3tScu-60AxeniPPW3h3VWvvQjblOrwEs
+    short-id: 18180d97
+  server: 18.138.58.91
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  udp: false
+  uuid: 578decd8-804d-43fc-a8fb-5206d0b5c871
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 1|🇸🇬1 |  6.0MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 18.141.233.166
-  type: ss
-- client-fingerprint: chrome
-  delay: 1924
-  flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0023
-  network: tcp
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -49,7 +72,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -57,7 +80,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -68,7 +91,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -85,7 +108,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 3030
   server: 47.237.84.79
   skip-cert-verify: false
@@ -95,7 +118,7 @@ proxies:
   uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.249.95.208
@@ -103,7 +126,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '3030'
   server: 47.237.84.79

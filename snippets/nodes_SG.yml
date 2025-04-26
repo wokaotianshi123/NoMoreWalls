@@ -1,35 +1,58 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: f7958556-285b-4b5f-b6fb-eb9d82a4d3fb
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 1|🇸🇬1 |  6.2MB/s
+  password: ec6b43e1-a9a9-30af-a54e-274df6c5080b
+  port: 17806
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x65.flybar.work
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 28f58050-228c-4dd0-8667-912057b5f938
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 505fc89e-bcb0-420f-b97c-a7eed31b0ef1
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 1|🇸🇬1 |  6.0MB/s
-  password: amazongreatvpn
-  port: 443
-  server: 18.141.233.166
-  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -46,7 +69,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 3030
   server: 47.237.84.79
   skip-cert-verify: false
@@ -56,7 +79,7 @@ proxies:
   uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.249.95.208
@@ -64,7 +87,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '3030'
   server: 47.237.84.79

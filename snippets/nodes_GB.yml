@@ -1,48 +1,29 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
-  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
+  password: a0affc05-cd68-4479-8073-eb14ae697712
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: a5d363e1-1b60-406f-90f6-9726dd32fbea
+  password: a0affc05-cd68-4479-8073-eb14ae697712
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 01 | 1x HK
-  password: d9f7cbae-0a3b-4978-b423-5b95061d3fd0
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: afae62b0-5cdc-4f34-b7b7-e7384b781937
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: d9f7cbae-0a3b-4978-b423-5b95061d3fd0
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: afae62b0-5cdc-4f34-b7b7-e7384b781937
   port: 36271
   server: free.2weradf.xyz
-  type: ss
-  udp: true
-- allowInsecure: ''
-  name: 2|🇬🇧5 |  5.4MB/s
-  network: tcp
-  password: klZqKyxq0H
-  port: 1935
-  server: 57.128.165.173
-  skip-cert-verify: false
-  sni: x1-england-ovh-v2.devefun.net
-  tls: true
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2|🇬🇧7 |  5.4MB/s
-  password: idd8ND5E
-  port: 31321
-  server: 13.41.208.251
-  tfo: true
   type: ss
   udp: true

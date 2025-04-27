@@ -1,60 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.229.132.112
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇸🇬2 |  2.3MB/s
+- client-fingerprint: chrome
+  delay: 1924
+  flow: xtls-rprx-vision
+  name: 1,14|CN_speednode_0023
   network: tcp
-  port: 17231
-  raw:
-    add: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-    aid: '0'
-    alpn: ''
-    fp: ''
-    host: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-    id: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
-    net: tcp
-    path: /
-    port: '17231'
-    ps: 🔥Join+Telegram:@FarahVPN🟣
-    scy: ''
-    sni: ''
-    tls: ''
-    type: none
-    v: '2'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0034
+  name: 1,14|CN_speednode_0034
   network: tcp
   port: 56127
   reality-opts:
@@ -66,7 +49,42 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- alterId: 0
+  cipher: auto
+  name: 1|🇸🇬3 |  2.7MB/s
+  network: ws
+  port: 443
+  server: 104.21.42.243
+  servername: sgfqkqmltcy.site
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 01 | 1x SG
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 02 | 1x SG
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬 新加坡 03 | 1x SG
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -74,7 +92,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -82,7 +100,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -93,7 +111,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -110,7 +128,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡2|@ripaojiedian
+  name: 12,13|新加坡2|@ripaojiedian
   network: ws
   port: '43050'
   server: a.ziqiu1060.ggff.net
@@ -125,7 +143,7 @@ proxies:
       Host: a.ziqiu1060.ggff.net
     path: /dsfsdf
 - client-fingerprint: chrome
-  name: 11,12|新加坡3|@ripaojiedian
+  name: 12,13|新加坡3|@ripaojiedian
   network: tcp
   password: 1b97e412-8bf8-4521-b9d6-8ca529f8cbc9
   port: 27401
@@ -135,30 +153,9 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.125.152.108
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

@@ -1,124 +1,80 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
-  password: b8aeba4c-d833-4d25-9518-2d1925b357f2
+  password: 531f75f5-0b80-4c56-998b-cb6606fbb571
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵1 |  6.1MB/s
-  network: tcp
-  port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  ws-headers:
-    Host: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  ws-path: /
-- alterId: '0'
-  cipher: auto
-  name: 1|🇯🇵4 |  5.8MB/s
-  network: ws
-  port: '35213'
-  server: jp3.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      host: web.xcjs.info
-    path: /home
 - cipher: aes-256-cfb
-  name: 1|🇯🇵6 |  6.2MB/s
+  name: 1|🇯🇵3 |  2.7MB/s
   password: amazonskr05
   port: 443
-  server: 35.72.13.151
+  server: 3.112.189.202
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|🇯🇵5 |  5.5MB/s
+  password: amazonskr05
+  port: 80
+  server: 52.193.159.252
   type: ss
 - cipher: aes-256-cfb
-  name: 1|🇯🇵9 |  4.3MB/s
+  name: 1|🇯🇵8 |  6.1MB/s
   password: amazonskr05
   port: 443
   server: 43.207.103.11
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇯🇵10 |  6.8MB/s
+  name: 1|🇯🇵12 |  1.4MB/s
   network: tcp
   port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-  ws-headers:
-    Host: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 1|🇯🇵11 |  5.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.181.173.99
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵13 |  2.2MB/s
-  network: tcp
-  port: 17233
-  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵14 |  5.7MB/s
-  network: ws
-  port: 35244
-  server: jp4.vip2.g2.moonbase.life
-  servername: jp4.vip2.g2.moonbase.life
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: jp4.vip2.g2.moonbase.life
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 1|🇯🇵15 |  6.5MB/s
-  network: ws
-  port: 35243
-  server: jp3.vip2.g2.moonbase.life
-  servername: jp3.vip2.g2.moonbase.life
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: jp3.vip2.g2.moonbase.life
-    path: /home
+  ws-headers:
+    Host: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 01 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 02 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇯🇵 日本 03 | 1x JP
+  password: 76043e55-419a-45e5-aae3-575944c31ece
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -130,7 +86,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 454f160a336b
   plugin: v2ray-plugin
   plugin-opts:
@@ -146,7 +102,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: 82401cca-92d1-4220-9367-1cb52832bf59
   port: 16101
   server: 183.240.116.150
@@ -154,7 +110,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   password: 05d0bad8-6f0c-44b9-ac62-2f672ef55cbe
   port: 10100
   server: one.taki.wtf
@@ -163,7 +119,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|日本5|@ripaojiedian
+  name: 12,13|日本5|@ripaojiedian
   network: ws
   port: '35213'
   server: jp3.g2.moonbase.life
@@ -179,7 +135,7 @@ proxies:
     path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本特殊|@ripaojiedian
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.203.238.203
@@ -187,7 +143,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本6|@ripaojiedian
+  name: 13|日本6|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -195,24 +151,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 01 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 02 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 03 | 1x JP
-  password: 4fc2003b-d64a-4e84-bea3-dfc2a4ac5d6b
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

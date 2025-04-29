@@ -1,69 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 0a930a22-93bf-40d2-b982-51b3ac4702df
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 91a6d6c8-385a-4f5f-8843-d15c30808595
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 91a6d6c8-385a-4f5f-8843-d15c30808595
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  flow: ''
   mode: ''
-  name: 2|🇬🇧1 |  4.6MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MU_w-1GJgJnJOTH6V8RTct92ar9doPeHcJm58FGAqhM
-    short-id: ea
-  server: v2raymizban.iranigamepars.ir
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 71075f29-256c-430e-93c7-42f432bc8abe
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧2 |  5.3MB/s
+  name: 0|🇬🇧1 |  5.6MB/s
   network: ws
   port: 443
-  server: 45.8.211.230
-  servername: CxNiMjJz.cAfUnEaR.InFo
-  tls: true
-  type: vless
-  udp: false
-  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-  ws-opts:
-    headers:
-      Host: CxNiMjJz.cAfUnEaR.InFo
-    path: /
-- flow: ''
-  mode: ''
-  name: 2|🇬🇧3 |  4.9MB/s
-  network: ws
-  port: 443
-  server: 45.131.6.160
+  server: 188.42.88.45
   servername: CxNiMjJz.cAfUnEaR.InFo
   tls: true
   type: vless
@@ -75,65 +16,20 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧4 |  5.7MB/s
+  name: 0|🇬🇧2 |  4.2MB/s
   network: tcp
-  port: 14659
+  port: 35311
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: gysz0000.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0026
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: vip.jddns0202.top
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇬🇧6 |  2.9MB/s
-  network: tcp
-  port: 49699
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.amazon.com
+  server: shenzhou02.mysynology.net
+  servername: www.yahoo.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇬🇧7 |  2.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MU_w-1GJgJnJOTH6V8RTct92ar9doPeHcJm58FGAqhM
-    short-id: ea
-  server: 213.21.245.83
-  servername: tgju.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 71075f29-256c-430e-93c7-42f432bc8abe
-  ws-opts:
-    headers:
-      Host: JOKERRVPNJoin_Bade_Channel@JOKERRVPN
-    path: ''
-- client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇬🇧8 |  1.8MB/s
+  name: 0|🇬🇧3 |  4.1MB/s
   network: ws
   port: 443
   server: 45.142.120.97
@@ -148,24 +44,54 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧9 |  1.1MB/s
+  name: 0|🇬🇧4 |  5.3MB/s
   network: tcp
-  port: 50123
+  port: 65053
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: 84.32.41.200
+  server: beiyong.dynuddns.net
   servername: www.amazon.com
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: aes-256-cfb
-  delay: 586
-  name: 2|🇬🇧10 |  1.1MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 62.100.205.48
+- flow: ''
+  mode: ''
+  name: 0|🇬🇧5 |  2.2MB/s
+  network: ws
+  port: 443
+  server: 45.131.6.160
+  servername: CxNiMjJz.cAfUnEaR.InFo
+  tls: true
+  type: vless
+  udp: false
+  uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+  ws-opts:
+    headers:
+      Host: CxNiMjJz.cAfUnEaR.InFo
+    path: /
+- auth: a41ae488-aaeb-4738-8ffb-66589ae4b492
+  name: 0|🇬🇧6 |  5.1MB/s
+  password: a41ae488-aaeb-4738-8ffb-66589ae4b492
+  port: 20352
+  server: gb.1e6af9be69cbae59cba.tech
+  skip-cert-verify: false
+  sni: gb.1e6af9be69cbae59cba.tech
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: b70b877c-41fb-4ab1-a38b-454745aaa9d9
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: b70b877c-41fb-4ab1-a38b-454745aaa9d9
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -173,3 +99,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: 30f2b8ea-7c74-4c27-bb16-bd093fa11aac
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 30f2b8ea-7c74-4c27-bb16-bd093fa11aac
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

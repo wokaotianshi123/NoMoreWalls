@@ -1,22 +1,8 @@
 proxies:
-- name: 0|🇷🇺3 |  4.3MB/s
+- name: 1|🇷🇺3 |  4.3MB/s
   password: 3ffa664f-364a-4937-a314-1d9f02ad8458
   port: 32008
   server: lbso.bnnodeservice.com
   skip-cert-verify: false
   sni: cert.bitbyte.one
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 473b9598-50ea-4460-a7e9-48f769feabc1
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 | 1x RU
-  password: 2dc4bc57-c8d9-4587-94b2-757f5d4e9c98
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

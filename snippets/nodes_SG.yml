@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 01 | 1x SG
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 02 | 1x SG
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬 新加坡 03 | 1x SG
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36175
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -96,15 +96,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
-- name: 14|SG_speednode_0052
-  password: '!!str 74260671232757400'
-  port: 443
-  server: game-seagull.shiner427.skin
-  skip-cert-verify: false
-  sni: game-seagull.shiner427.skin
-  type: trojan
-  udp: true
-- name: 14|SG_speednode_0056
+- name: 14|SG_speednode_0034
   network: ws
   password: Aimer
   port: 8443

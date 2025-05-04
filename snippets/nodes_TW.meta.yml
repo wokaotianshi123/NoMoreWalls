@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 605ffac9-ddc6-49e6-a23b-d15fd35be042
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: 2fd5d3f5-3ff5-42e7-a945-33f0e738efa6
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 7d0346d7-037d-43f1-8d7d-a210d8826083
   port: 36245
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: 50322e53-b102-480e-95bb-5300177e8245
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -138,7 +138,7 @@ proxies:
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - client-fingerprint: random
-  name: 14|TW_speednode_0057
+  name: 14|TW_speednode_0035
   network: ws
   port: 81
   server: 210.61.97.241

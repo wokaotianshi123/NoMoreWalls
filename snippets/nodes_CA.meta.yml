@@ -1,5 +1,19 @@
 proxies:
-- name: 1|🇨🇦1 |  1.5MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 56f93a22-c8a2-4f2b-bbd9-1c9efdd9da47
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: 1fbf762e-8569-4894-b934-a1fdd27351c1
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇨🇦1 |  1.5MB/s
   network: ws
   port: 443
   server: 192.0.54.46

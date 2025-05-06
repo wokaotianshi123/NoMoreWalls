@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  password: 338e1a3e-32fe-4a8f-a880-d1dd525dbf44
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  password: 338e1a3e-32fe-4a8f-a880-d1dd525dbf44
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: cd3ecc0a-4635-402f-b8c0-142bb5e95d9d
+  password: 338e1a3e-32fe-4a8f-a880-d1dd525dbf44
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
@@ -34,7 +34,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 1,12|台湾2|@ripaojiedian
+  name: 1,13|台湾2|@ripaojiedian
   network: tcp
   port: '3687'
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -90,7 +90,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾|@ripaojiedian
+  name: 12|🇹🇼 台湾|@ripaojiedian
   port: 14100
   server: dxv4.pai50288.uk
   skip-cert-verify: false
@@ -101,7 +101,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇹🇼 台湾2|@ripaojiedian
+  name: 12|🇹🇼 台湾2|@ripaojiedian
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   skip-cert-verify: false
@@ -111,7 +111,7 @@ proxies:
   uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 12|台湾|@ripaojiedian
+  name: 13|台湾|@ripaojiedian
   network: tcp
   port: '14100'
   server: dxv4.pai50288.uk
@@ -120,7 +120,7 @@ proxies:
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - client-fingerprint: random
-  name: 13|TW_speednode_0016
+  name: 14|TW_speednode_0016
   network: ws
   port: 81
   server: 210.61.97.241
@@ -134,24 +134,3 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 278a0404-1803-421c-b480-257d9ee8c7cb
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 278a0404-1803-421c-b480-257d9ee8c7cb
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 278a0404-1803-421c-b480-257d9ee8c7cb
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

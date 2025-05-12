@@ -1,88 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
+  password: cb82886b-7c80-41db-90b4-840ed49bbce2
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 4dd58a0a-fae0-47fe-9bca-7d25037b369d
+  password: cb82886b-7c80-41db-90b4-840ed49bbce2
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 3076db8f-b0b2-4c26-9f9e-99e46fb7dfe2
+  password: 512e2670-743f-4d9a-8244-2703bed51896
   port: 36311
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 2|🇰🇷1 |  1.6MB/s|44%|Netflix|Ope...
-  password: qwerREWQ@@
-  port: 15098
-  server: p222.panda001.net
-  type: ss
-- client-fingerprint: random
-  delay: 1310
-  name: 2|🇰🇷2 |  1.0MB/s|62%|Disney|Open...
-  network: ws
-  port: 443
-  server: 103.21.244.174
-  servername: hi.univermap.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
-  ws-opts:
-    headers:
-      Host: hi.univermap.site
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 2|🇰🇷3 |  5.7MB/s|44%|Netflix|Dis...
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
-- client-fingerprint: random
-  name: 2|🇰🇷4 |  5.7MB/s|62%|Netflix|Dis...
-  network: ws
-  port: '2096'
-  server: 104.24.221.238
-  servername: hi.univermap.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
-  ws-opts:
-    headers:
-      Host: hi.univermap.site
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /?ed=2560
-  xudp: true
 - client-fingerprint: chrome
-  name: 2|🇰🇷5 |  5.8MB/s|62%|Disney|Open...
-  network: ws
-  port: '8443'
-  server: 104.16.168.120
-  servername: hi.univermap.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
-  ws-opts:
-    headers:
-      Host: hi.univermap.site
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇰🇷6 |  1.2MB/s|62%|Netflix|Dis...
+  name: 2|🇰🇷1 |  2.8MB/s|62%|Netflix|Dis...
   network: ws
   port: '2087'
   server: 104.24.13.124
@@ -98,11 +37,11 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /?ed=2560fp=random
   xudp: true
-- client-fingerprint: chrome
-  name: 2|🇰🇷7 |  4.0MB/s|62%|Disney|Open...
+- client-fingerprint: random
+  name: 2|🇰🇷2 |  5.8MB/s|62%|Disney|Open...
   network: ws
-  port: '8443'
-  server: 104.16.193.4
+  port: '2096'
+  server: 104.24.221.238
   servername: hi.univermap.site
   tls: true
   type: vless
@@ -111,31 +50,13 @@ proxies:
   ws-opts:
     headers:
       Host: hi.univermap.site
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2560fp=random
-  xudp: true
-- client-fingerprint: chrome
-  name: 2|🇰🇷8 |  4.2MB/s|62%|Disney|Open...
-  network: ws
-  port: '443'
-  server: 162.159.152.107
-  servername: hi.univermap.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
-  ws-opts:
-    headers:
-      Host: hi.univermap.site
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /?ed=2560fp=random
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=2560
   xudp: true
 - client-fingerprint: random
   delay: 1008
-  name: 2|🇰🇷9 |  1.2MB/s|62%|Disney|Open...
+  name: 2|🇰🇷3 |  5.6MB/s|62%|Netflix|Dis...
   network: ws
   port: 2096
   server: 103.21.244.126
@@ -148,12 +69,26 @@ proxies:
     headers:
       Host: hi.univermap.site
     path: /?ed=2560
+- name: 2,14|US_speednode_0061
+  network: ws
+  port: 80
+  server: 185.148.106.32
+  servername: ipsycho.suex12.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: ipsycho.suex12.ir
+    path: /re5IzbZ9IZZMddtw?ed=2560
 - client-fingerprint: random
-  delay: 1770
-  name: 2|🇰🇷10 |  1.9MB/s|62%|Netflix|Di...
+  delay: 1130
+  name: 2|🇰🇷5 |  1.3MB/s|62%|Netflix|Dis...
   network: ws
   port: 2053
-  server: 103.21.244.134
+  server: 188.114.98.42
   servername: hi.univermap.site
   tls: true
   type: vless
@@ -163,18 +98,58 @@ proxies:
     headers:
       Host: hi.univermap.site
     path: /?ed=2560
-- auth: 60fd309e-1284-4851-bc84-b543a9d64062
-  delay: 2137
-  name: 2|🇰🇷11 |  1.4MB/s|63%|Youtube|Op...
-  password: 60fd309e-1284-4851-bc84-b543a9d64062
-  port: 34272
-  server: lstone1228.eu.org
-  sni: lstone1228.eu.org
-  type: hysteria2
-- name: 2|🇰🇷12 |  3.5MB/s|62%|Disney
+- delay: 2184
+  name: 2|🇰🇷6 |  1.3MB/s|62%|Openai
+  network: ws
+  port: 8443
+  server: 188.114.98.189
+  servername: hi.univermap.site
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 9bbaef0c-7403-44ec-b412-244437e8e74a
+  ws-opts:
+    headers:
+      Host: hi.univermap.site
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 2|🇰🇷7 |  6.2MB/s|62%|Disney|Open...
+  network: ws
+  port: '8443'
+  server: 104.16.168.120
+  servername: hi.univermap.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
+  ws-opts:
+    headers:
+      Host: hi.univermap.site
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: random
+  name: 2|🇰🇷8 |  4.7MB/s|62%|Disney|Open...
+  network: ws
+  port: '8443'
+  server: 104.16.193.4
+  servername: hi.univermap.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
+  ws-opts:
+    headers:
+      Host: hi.univermap.site
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 2|🇰🇷9 |  5.6MB/s|62%|Disney|Open...
   network: ws
   port: 443
-  server: 192.9.139.160
+  server: 160.79.104.240
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -185,10 +160,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷13 |  2.7MB/s|62%|Disney
+- name: 2|🇰🇷10 |  5.6MB/s|62%|Disney|Gem...
   network: ws
   port: 443
-  server: icook.tw
+  server: abdullah.ns.cloudflare.com
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -199,7 +174,7 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷14 |  4.3MB/s|62%|Disney|Ope...
+- name: 2|🇰🇷11 |  2.7MB/s|62%|Disney|Gem...
   network: ws
   port: 443
   server: julio.ns.cloudflare.com
@@ -213,10 +188,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷15 |  1.1MB/s|62%|Disney|You...
+- name: 2|🇰🇷12 |  1.7MB/s|62%|Disney|Gem...
   network: ws
   port: 443
-  server: toy-people.com
+  server: ipinfo.in
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -227,10 +202,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷16 |  3.4MB/s|62%|Disney|Ope...
+- name: 2|🇰🇷13 |  1.3MB/s|62%|Disney|Ope...
   network: ws
   port: 443
-  server: 212.183.88.249
+  server: 160.79.104.55
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -241,10 +216,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷17 |  2.0MB/s|Disney|Openai
+- name: 2|🇰🇷14 |  5.7MB/s|62%|Disney|Ope...
   network: ws
   port: 443
-  server: otto.ns.cloudflare.com
+  server: 45.67.215.56
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -255,10 +230,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷18 |  1.0MB/s|62%|Disney
+- name: 2|🇰🇷15 |  2.8MB/s|62%|Disney|Gem...
   network: ws
   port: 443
-  server: braden.ns.cloudflare.com
+  server: 185.133.35.112
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -269,10 +244,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷19 |  5.3MB/s|62%|Disney
+- name: 2|🇰🇷16 |  3.6MB/s|62%|Disney|Gem...
   network: ws
   port: 443
-  server: 69.84.182.141
+  server: 192.0.54.174
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -283,10 +258,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷20 |  3.4MB/s|62%|Disney
+- name: 2|🇰🇷17 |  4.3MB/s|62%|Disney|Ope...
   network: ws
   port: 443
-  server: nikon.ns.cloudflare.com
+  server: 160.123.255.58
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -297,10 +272,10 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷21 |  5.8MB/s|62%|Disney|Ope...
+- name: 2|🇰🇷18 |  1.1MB/s|62%|Disney|Ope...
   network: ws
   port: 443
-  server: moura.ns.cloudflare.com
+  server: 160.123.255.162
   servername: nl.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
@@ -311,75 +286,41 @@ proxies:
     headers:
       host: nl.ylka.dpdns.org
     path: /?ed=2560
-- name: 2|🇰🇷22 |  3.4MB/s|62%|Disney
+- delay: 435
+  name: 2|🇰🇷19 |  1.1MB/s|62%|Disney|Ope...
   network: ws
-  port: 443
-  server: 185.133.35.67
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
+  port: 8880
+  server: 156.238.18.111
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: reedfree8mahsang2.redorg.ir
+    path: /Telegram🇨🇳 @pgkj666 /?ed=2560
+- auth: 60fd309e-1284-4851-bc84-b543a9d64062
+  delay: 2137
+  name: 2|🇰🇷20 |  3.9MB/s|63%|Youtube|Op...
+  password: 60fd309e-1284-4851-bc84-b543a9d64062
+  port: 34272
+  server: lstone1228.eu.org
+  sni: lstone1228.eu.org
+  type: hysteria2
+- client-fingerprint: random
+  delay: 1770
+  name: 2|🇰🇷21 |  5.6MB/s|62%|Netflix|Di...
+  network: ws
+  port: 2053
+  server: 103.21.244.134
+  servername: hi.univermap.site
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: d7f943df-d885-4589-93e6-da8b1b2bbde2
   ws-opts:
     headers:
-      host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷23 |  5.3MB/s|62%|Netflix|Di...
-  network: ws
-  port: 10912
-  server: 116.47.10.236
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷24 |  1.8MB/s|62%|Disney
-  network: ws
-  port: 443
-  server: 160.123.255.130
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷25 |  1.1MB/s|Disney
-  network: ws
-  port: 443
-  server: craig.ns.cloudflare.com
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylka.dpdns.org
-    path: /?ed=2560
-- name: 2|🇰🇷26 |  2.5MB/s|Disney|Openai
-  network: ws
-  port: 443
-  server: 45.67.215.165
-  servername: nl.ylka.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: nl.ylka.dpdns.org
+      Host: hi.univermap.site
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -430,20 +371,6 @@ proxies:
   ws-opts:
     headers:
       Host: 888.uskm.dpdns.org
-    path: /?ed=2560
-- name: 14|KR_speednode_0027
-  network: ws
-  port: 50000
-  server: 112.164.234.135
-  servername: 0229.patterdeng.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-  ws-opts:
-    headers:
-      Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
 - name: 14|KR_speednode_0028
   network: ws

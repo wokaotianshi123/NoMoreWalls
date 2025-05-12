@@ -1,7 +1,7 @@
 proxies:
 - down: ''
   fingerprint: ''
-  name: 2|🇫🇷1 |  2.8MB/s|16%|Openai
+  name: 2|🇫🇷1 |  5.8MB/s|16%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -15,24 +15,9 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  delay: 1652
-  down: 55
-  name: 2|🇫🇷2 |  4.1MB/s|0%|Openai
-  port: 46938
-  protocol: udp
-  server: 195.154.200.178
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
   delay: 1608
   down: 100
-  name: 2|🇫🇷3 |  3.3MB/s|16%|Openai
+  name: 2|🇫🇷2 |  4.3MB/s|16%|Openai
   port: 14241
   protocol: udp
   server: 51.159.226.1
@@ -41,21 +26,7 @@ proxies:
   type: hysteria
   udp: true
   up: 100
-- name: 2|🇫🇷4 |  3.8MB/s|45%|Openai
-  network: ws
-  port: '8880'
-  server: 104.21.69.44
-  type: vless
-  udp: true
-  uuid: e2d909b7-60b3-4edc-8dcc-7c05c8fc1e2f
-  ws-opts:
-    headers:
-      Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- name: 2|🇫🇷5 |  5.0MB/s|Openai
+- name: 2|🇫🇷3 |  2.9MB/s|16%|Openai
   network: ws
   port: '8080'
   server: tgju.org
@@ -69,56 +40,43 @@ proxies:
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: ''
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 2|🇫🇷6 |  5.4MB/s|100%|Openai
+- auth: dongtaiwang.com
+  client-fingerprint: chrome
+  name: 2|🇫🇷4 |  4.1MB/s|16%|Openai
+  password: dongtaiwang.com
+  port: 4489
+  server: 51.158.205.126
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 2|🇫🇷5 |  1.2MB/s|45%
   network: ws
-  port: 2095
-  server: 185.174.138.209
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
-  xudp: true
-- delay: 2606
-  name: 2|🇫🇷7 |  5.0MB/s|16%|Openai
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: IO.IhJtq0hklC.ZULAiR.OrG.
+  port: '8880'
+  server: zula.ir
   type: vless
   udp: true
-  uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
+  uuid: e2d909b7-60b3-4edc-8dcc-7c05c8fc1e2f
   ws-opts:
     headers:
-      Host: IO.IhJtq0hklC.ZULAiR.OrG.
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /
+      Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2048
   xudp: true
 - alpn:
-  - h2
   - http/1.1
-  client-fingerprint: chrome
-  delay: 2566
-  name: 2|🇫🇷8 |  3.4MB/s|45%|Openai
-  network: ws
-  port: 443
-  server: 190.93.245.137
-  servername: WWW.EsfahAnsimaN.infO.
+  client-fingerprint: safari
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 2|🇫🇷6 |  5.6MB/s|52%|Youtube|Ope...
+  network: tcp
+  port: '443'
+  server: 91.134.88.205
+  servername: france.linceed.se
   tls: true
   type: vless
   udp: true
-  uuid: 3f9185b3-c35c-4b22-8675-cbd67bd03afc
-  ws-opts:
-    headers:
-      Host: WWW.EsfahAnsimaN.infO.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
+  uuid: 07eaf930-14df-4508-9ad3-d3aae5e10ab1
   xudp: true

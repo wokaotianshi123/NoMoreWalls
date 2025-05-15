@@ -1,38 +1,47 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 5cb040de-715a-4c10-bb3e-e7c54cd7f0d7
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 5cb040de-715a-4c10-bb3e-e7c54cd7f0d7
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 5cb040de-715a-4c10-bb3e-e7c54cd7f0d7
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: 1fda680c-5169-46fd-a016-85a6c8fe5f8d
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: 1fda680c-5169-46fd-a016-85a6c8fe5f8d
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 495cb4dd-e1f5-45b1-8f3b-af792fe7543e
   port: 36173
   server: free.2weradf.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 2630e11d-aebc-4605-9fe9-f2e93d1fa6b6
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇸🇬1 |  1.3MB/s|34%|Disney|Yout...
+  password: 09e8b39a-4c09-4df0-a50c-af3bef01567e
+  port: 35000
+  server: gzyd.cg.xxality.cn
+  skip-cert-verify: true
+  sni: cgsg2.hysality.com
+  tfo: false
+  type: trojan
   udp: true
 - alterId: 2
   cipher: auto
@@ -90,10 +99,16 @@ proxies:
   port: 8123
   server: mortify.koreanbbq.link
   type: trojan
-- name: 14|SG_speednode_0180
-  password: 9de6d20c-d133-4261-8dd2-88684d619f7e
-  port: 43456
-  server: 43.163.126.61
+- name: 14|SG_speednode_0056
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 138.2.107.107
   skip-cert-verify: true
+  sni: icecream.955850.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=138.2.107.107:443&proxyIP=null

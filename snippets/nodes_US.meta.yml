@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: 0ba9fa9b-d956-4ad8-a2e4-e012ac3d613a
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 0966f16a-c5ca-49bc-9341-bb2f6bd49e17
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -1336,24 +1336,24 @@ proxies:
   tls: true
   type: socks5
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 666c10a8-8bee-4e34-95c1-5b2140723c60
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 666c10a8-8bee-4e34-95c1-5b2140723c60
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 666c10a8-8bee-4e34-95c1-5b2140723c60
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 2|🇺🇸 美国 03 | 1x US Washington
+  password: 81124dc4-486a-4e8d-a55d-ef3c136558c5
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -1371,11 +1371,10 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '30832'
+  port: 30832
   server: v32.heduian.link
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1388,9 +1387,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国4|@ripaojiedian
+  name: 12|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: '22642'
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
   skip-cert-verify: false
@@ -1405,9 +1404,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 12|🇺🇸 美国5|@ripaojiedian
   network: ws
-  port: '22641'
+  port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false

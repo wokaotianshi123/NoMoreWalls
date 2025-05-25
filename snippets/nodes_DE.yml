@@ -1,14 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: aaf5c271-b2be-4973-88d9-2f38a2270bd1
+  name: 0|🇩🇪 德国 01 | 1x DE
+  password: 04ee34cd-4dff-4e43-8329-001ecb8a80c8
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -17,7 +10,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -26,3 +19,10 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 5bc229d1-036b-45fd-91b9-350f8c40b04d
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

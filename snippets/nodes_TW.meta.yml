@@ -1,48 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 0ca19bad-bc02-423d-941b-4c770828511a
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: aaf5c271-b2be-4973-88d9-2f38a2270bd1
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 04ee34cd-4dff-4e43-8329-001ecb8a80c8
   port: 36241
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: aaf5c271-b2be-4973-88d9-2f38a2270bd1
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 04ee34cd-4dff-4e43-8329-001ecb8a80c8
   port: 36243
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: aaf5c271-b2be-4973-88d9-2f38a2270bd1
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 04ee34cd-4dff-4e43-8329-001ecb8a80c8
   port: 36245
   server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  name: 1|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -51,3 +30,24 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 5bc229d1-036b-45fd-91b9-350f8c40b04d
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 5bc229d1-036b-45fd-91b9-350f8c40b04d
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 5bc229d1-036b-45fd-91b9-350f8c40b04d
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

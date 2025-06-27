@@ -44,6 +44,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  password: zcaarradsfasgfdcxx
+  port: 3551
+  server: nstku8v.ns.p36958.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 14|SG_speednode_0082
   network: ws

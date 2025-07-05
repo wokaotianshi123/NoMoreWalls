@@ -37,7 +37,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: '11|Channel id: @ShadowProxy66🇸🇬'
+- name: '10|Channel id: @ShadowProxy66🇸🇬'
   password: 9FmazX8AAPpM8TQcNyI2zvBDF5o
   port: 28264
   server: 92.112.23.216
@@ -45,7 +45,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 38482
@@ -54,7 +54,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12,13|新加坡2|@ripaojiedian
+  name: 11,12|新加坡2|@ripaojiedian
   network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 7041
@@ -64,14 +64,14 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: YjFmZ
   port: 8388
   server: sg.opensocks.site
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13|新加坡4|@ripaojiedian
+  name: 11,12|新加坡4|@ripaojiedian
   network: tcp
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6668
@@ -79,7 +79,7 @@ proxies:
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
-- name: 14|SG_speednode_0240
+- name: 13|SG_speednode_0238
   network: ws
   port: 8880
   server: 92.243.74.77
@@ -93,21 +93,7 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0241
-  network: ws
-  port: 8880
-  server: 92.243.75.77
-  servername: Telegram-channel-WangCai2
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
-  ws-opts:
-    headers:
-      Host: free.cfdns.online
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0242
+- name: 13|SG_speednode_0239
   network: ws
   port: 8880
   server: 27.50.49.77
@@ -121,7 +107,21 @@ proxies:
     headers:
       Host: free.cfdns.online
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 14|SG_speednode_0243
+- name: 13|SG_speednode_0240
+  network: ws
+  port: 8880
+  server: 92.243.75.77
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7
+  ws-opts:
+    headers:
+      Host: free.cfdns.online
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: 13|SG_speednode_0241
   network: ws
   port: 8880
   server: 27.50.48.77

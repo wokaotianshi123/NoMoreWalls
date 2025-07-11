@@ -1380,7 +1380,8 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
+  network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 4447
   server: 36.151.192.26
@@ -1388,41 +1389,14 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
+  network: tcp
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 34719
   server: 36.151.192.26
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 13|美国3|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4447
-  server: 36.151.192.27
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 13|美国4|@ripaojiedian
-  network: tcp
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 8657
-  server: 36.156.102.123
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 13|美国5|@ripaojiedian
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 194.53.53.249
-  skip-cert-verify: true
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: '%2F%3Fed%3D2560%26PROT_TYPE%3Dtrojan'
 - name: 14|US_speednode_0044
   network: ws
   port: 8880

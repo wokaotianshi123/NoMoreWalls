@@ -15,7 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9,10|کانفیگ های بیشتر در چنل تلگرام...
+- name: '9,10|💎کانفیگ های بیشتر در چنل تلگرا... #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -91,14 +91,6 @@ proxies:
   server: chervhill.hajalii.com
   skip-cert-verify: false
   sni: chervhill.hajalii.com
-  tls: false
-  type: hysteria2
-- name: 10| @Hddify
-  password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-  port: 43429
-  server: 185.126.255.78
-  skip-cert-verify: false
-  sni: real.getafreenode.sbs
   tls: false
   type: hysteria2
 - name: 10|@Daily_Configs
@@ -475,16 +467,14 @@ proxies:
     headers:
       Host: hkt.gotochinatown.net
     path: /
-- name: 12,13|香港4|@ripaojiedian
-  network: tcp
+- name: 12|🇭🇰 香港4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 203.218.174.80
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 12,13|香港6|@ripaojiedian
-  network: tcp
+- name: 12|🇭🇰 香港6|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 218.103.234.218
@@ -538,24 +528,21 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- name: 12,13|日本4|@ripaojiedian
-  network: tcp
+- name: 12|🇯🇵 日本4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 12,13|新加坡|@ripaojiedian
-  network: tcp
+- name: 12|🇸🇬 新加坡|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 3957
   server: 43.198.153.8
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 12,13|新加坡2|@ripaojiedian
-  network: tcp
+- name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 9160
   server: xingxing.jiasu123.org
@@ -589,21 +576,35 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 12,13|美国3|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国3|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 4801
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 12,13|美国4|@ripaojiedian
-  network: tcp
+- name: 12|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 47293
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
+  type: trojan
+- name: 13|香港4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 218.103.249.91
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: 13|香港6|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2282
+  server: 43.198.184.150
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
   type: trojan
 - alterId: 0
   cipher: auto
@@ -615,6 +616,22 @@ proxies:
   tls: false
   type: vmess
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- name: 13|日本3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 316
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: 13|日本4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1924
+  server: 36.156.102.77
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|日本v2|@ripaojiedian
@@ -625,6 +642,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: 13|新加坡|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3957
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: 13|新加坡2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 9160
+  server: 36.156.102.77
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: 13|美国3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 2966
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: 13|美国4|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 18233
+  server: 13.231.37.82
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
 - name: 14|AT_speednode_0001
   network: ws
   password: slch2024

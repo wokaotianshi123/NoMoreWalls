@@ -1,18 +1,15 @@
 proxies:
 - cipher: rc4-md5
-  client-fingerprint: chrome
   name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-ZYgtULpH5Q.download.microsoft.com
+    host: 202509031722041-NTzL1f4K0s.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
-  tfo: false
   type: ss
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 12|🇯🇵 日本2|@ripaojiedian
   password: 8a6ca14c0936
   plugin: v2ray-plugin
@@ -25,17 +22,8 @@ proxies:
     tls: true
   port: 443
   server: 137.220.142.150
-  tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 12|🇯🇵 日本4|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: xingxing.jiasu123.org
-  skip-cert-verify: true
-  sni: 23.45.86.28
-  type: trojan
-- name: 13|日本3|@ripaojiedian
+- name: 12,13|日本3|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 316
@@ -43,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: 13|日本4|@ripaojiedian
+- name: 12,13|日本4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -51,6 +39,12 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
+- cipher: aes-256-gcm
+  name: 12|🇯🇵 日本5|@ripaojiedian
+  password: amazongreatvpn
+  port: 16888
+  server: 57.183.2.72
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本v2|@ripaojiedian

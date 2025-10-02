@@ -18,16 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-- alterId: 0
-  cipher: auto
-  name: 13|韩国2|@ripaojiedian
-  network: tcp
-  port: '55879'
-  server: 210.109.205.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
 - name: 14|KR_speednode_0030
   password: test.+
   port: 30446
